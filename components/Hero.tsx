@@ -7,7 +7,7 @@ const highlights = [
   "Qualidade premium",
   "PIX à vista",
   "Envio nacional",
-  "A partir de 6 peças elegíveis",
+  "Retire em Planaltina, GO",
 ];
 
 export function Hero() {
@@ -29,8 +29,8 @@ export function Hero() {
             A camisa do seu time, com qualidade premium.
           </h1>
           <p className="mt-5 max-w-xl text-lg leading-relaxed text-muted">
-            Clubes, seleções, retrô e NBA — varejo e atacado, direto do Brás
-            para todo o Brasil.
+            Clubes, seleções, retrô e NBA — varejo e atacado, de Planaltina,
+            Goiás para todo o Brasil.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link

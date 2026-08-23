@@ -2,7 +2,7 @@
 
 ## Produto
 
-Loja de camisas de time (varejo e atacado) no estilo das lojas do Brás: fundo escuro, dourado e catálogo denso.
+Loja de camisas de time (varejo e atacado) em Planaltina, Goiás: fundo escuro, dourado e catálogo denso.
 
 ## Estilo
 

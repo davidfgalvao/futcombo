@@ -16,7 +16,7 @@ export default function WholesalePage() {
       <h1 className="font-display text-4xl font-extrabold">Atacado</h1>
       <p className="mt-3 max-w-2xl text-muted">
         Preço de revenda a partir de {WHOLESALE_MIN} peças elegíveis. Grades prontas ou
-        montagem no WhatsApp, com retirada no Brás ou envio nacional.
+        montagem no WhatsApp, com retirada em Planaltina, Goiás ou envio nacional.
       </p>
       <div className="my-8 flex flex-wrap gap-3">
         <Link href="/categoria/grade" className="inline-flex min-h-12 items-center rounded-xl bg-gold px-5 font-bold text-zinc-900">

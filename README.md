@@ -1,6 +1,6 @@
 # FutCombo
 
-Loja de camisas de time no estilo das casas do Brás: fundo escuro, dourado e catálogo de varejo e atacado.
+Loja de camisas de time em Planaltina, Goiás: fundo escuro, dourado e catálogo de varejo e atacado.
 
 ## Stack
 
@@ -25,4 +25,4 @@ Abra [http://localhost:3000](http://localhost:3000).
 
 ## Observações
 
-Catálogo e checkout são demonstrativos. O WhatsApp em `lib/format.ts` deve ser trocado pelo número real da loja.
+Catálogo e checkout são demonstrativos. WhatsApp da loja: (61) 98210-9134. Retirada em Planaltina, Goiás.

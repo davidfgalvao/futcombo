@@ -13,8 +13,8 @@ const benefits = [
   },
   {
     icon: Store,
-    title: "Retirada no Brás",
-    text: "Feira da Madrugada",
+    title: "Retirada em Planaltina, GO",
+    text: "Retire na loja ou peça o envio",
   },
   {
     icon: Warehouse,

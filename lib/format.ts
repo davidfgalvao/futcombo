@@ -1,4 +1,7 @@
-export const WHATSAPP_NUMBER = "5511999999999";
+export const WHATSAPP_NUMBER = "5561982109134";
+export const PHONE_DISPLAY = "(61) 98210-9134";
+export const STORE_CITY = "Planaltina, GO";
+export const STORE_CITY_FULL = "Planaltina, Goiás";
 export const FREE_SHIPPING_FROM = 300;
 export const WHOLESALE_MIN = 6;
 export const PIX_DISCOUNT = 0.05;

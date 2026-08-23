@@ -4,7 +4,7 @@ const items = [
   { icon: Truck, label: "Frete para todo o Brasil" },
   { icon: Package, label: "A partir de 6 peças elegíveis" },
   { icon: CreditCard, label: "PIX à vista" },
-  { icon: MapPin, label: "Retire no Brás (Feira da Madrugada)" },
+  { icon: MapPin, label: "Retire em Planaltina, GO" },
 ];
 
 export function PromoBar() {
