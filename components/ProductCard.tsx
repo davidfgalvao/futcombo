@@ -21,7 +21,7 @@ export function ProductCard({ product }: { product: Product }) {
 
   return (
     <article className="group flex flex-col overflow-hidden rounded-xl border border-border bg-white text-zinc-900">
-      <div className="relative bg-[#111]">
+      <div className="relative bg-zinc-100">
         <button
           type="button"
           onClick={() => toggle(product.id)}

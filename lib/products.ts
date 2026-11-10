@@ -1,8 +1,8 @@
 import type { Product, ProductCategory, JerseyPattern } from "./types";
+import betaCatalog from "./beta-catalog.json";
 
 const ADULT = ["P", "M", "G", "GG", "XG"];
 const RETRO = ["P", "M", "G", "GG", "XL"];
-const KIDS = ["6", "8", "10", "12", "14"];
 
 const PRICE: Record<ProductCategory, { price: number; original: number; wholesale: number }> = {
   selecoes: { price: 99.9, original: 179.9, wholesale: 50 },
@@ -14,41 +14,33 @@ const PRICE: Record<ProductCategory, { price: number; original: number; wholesal
   grade: { price: 599.4, original: 899, wholesale: 300 },
 };
 
-const IMAGES: Record<string, string> = {
-  "brasil-i-home": "/camisas/camisa-brasil-i.png",
-  "brasil-ii-away": "/camisas/camisa-brasil-ii.png",
-  "brasil-kit-infantil": "/camisas/camisa-brasil-i.png",
-  "brasil-1970": "/camisas/camisa-brasil-1970.png",
-  "brasil-1998-9": "/camisas/camisa-brasil-1970.png",
-  "argentina-i-22": "/camisas/camisa-argentina-i.png",
-  "argentina-retro": "/camisas/camisa-argentina-i.png",
-  "franca-i-22": "/camisas/camisa-franca-i.png",
-  "italia-i-22": "/camisas/camisa-italia-i.png",
-  "vasco-1998": "/camisas/camisa-vasco-1998.png",
-  "vasco-i-jogador": "/camisas/camisa-vasco-1998.png",
-  "barcelona-2005-ronaldinho": "/camisas/camisa-barcelona-2005.png",
-  "barcelona-i-jogador": "/camisas/camisa-barcelona-2005.png",
-  "barcelona-i-torcedor": "/camisas/camisa-barcelona-2005.png",
-  "flamengo-1981": "/camisas/camisa-flamengo-i.png",
-  "flamengo-i-jogador": "/camisas/camisa-flamengo-i.png",
-  "flamengo-i-torcedor": "/camisas/camisa-flamengo-i.png",
-  "conjunto-flamengo": "/camisas/camisa-flamengo-i.png",
-  "palmeiras-i-torcedor": "/camisas/camisa-palmeiras-i.png",
-  "palmeiras-parmalat": "/camisas/camisa-palmeiras-i.png",
-  "real-madrid-i-jogador": "/camisas/camisa-real-madrid-i.png",
-  "real-madrid-i-torcedor": "/camisas/camisa-real-madrid-i.png",
-  "liverpool-i-jogador": "/camisas/camisa-liverpool-i.png",
-  "liverpool-i-torcedor": "/camisas/camisa-liverpool-i.png",
-  "corinthians-i-torcedor": "/camisas/camisa-corinthians-i.png",
-  "corinthians-ii-jogador": "/camisas/camisa-corinthians-i.png",
-  "corinthians-retro": "/camisas/camisa-corinthians-i.png",
-  "sao-paulo-i-jogador": "/camisas/camisa-sao-paulo-i.png",
-  "sao-paulo-i-torcedor": "/camisas/camisa-sao-paulo-i.png",
-  "psg-i-jogador": "/camisas/camisa-psg-i.png",
-  "man-city-i-jogador": "/camisas/camisa-man-city-i.png",
-  "man-city-i-torcedor": "/camisas/camisa-man-city-i.png",
-  "conjunto-brasil": "/camisas/camisa-brasil-i.png",
+type BetaItem = {
+  slug: string;
+  name: string;
+  category: ProductCategory;
+  image: string;
+  sizes: string[];
+  team: string;
+  gender: string;
 };
+
+function refineCategory(name: string, fallback: ProductCategory): ProductCategory {
+  const n = name.toLowerCase();
+  if (n.includes("retrô") || n.includes("retro")) return "retro";
+  if (
+    n.includes("seleção") ||
+    n.includes("selecao") ||
+    n.includes("copa do mundo") ||
+    n.includes("copa 2026") ||
+    n.includes("argentina") ||
+    n.includes("méxico") ||
+    n.includes("mexico") ||
+    /\bbrasil\b/.test(n)
+  ) {
+    return "selecoes";
+  }
+  return fallback;
+}
 
 function camisa(
   id: string,
@@ -67,7 +59,9 @@ function camisa(
     team,
     category,
     gender: extra.gender ?? "masculino",
-    version: extra.version ?? (category === "selecoes" ? "torcedor" : category === "conjuntos" ? "conjunto" : category),
+    version:
+      extra.version ??
+      (category === "selecoes" ? "torcedor" : category === "conjuntos" ? "conjunto" : category),
     price: extra.price ?? table.price,
     originalPrice: extra.originalPrice ?? table.original,
     wholesalePrice: extra.wholesalePrice ?? table.wholesale,
@@ -76,228 +70,41 @@ function camisa(
     featured: extra.featured,
     wholesaleEligible: extra.wholesaleEligible ?? true,
     sizes: extra.sizes ?? (category === "retro" ? RETRO : ADULT),
-    image: extra.image ?? IMAGES[id],
+    image: extra.image,
     description:
-      extra.description ??
-      `${name}. Envio direto ao endereço cadastrado. Sem estoque local.`,
+      extra.description ?? `${name}. Envio direto ao endereço cadastrado. Sem estoque local.`,
   };
 }
 
-export const products: Product[] = [
-  camisa(
-    "italia-i-22",
-    "Camisa Seleção Itália I 22/23",
-    "Itália",
-    "selecoes",
-    { primary: "#0052A5", secondary: "#FFFFFF", accent: "#F5C518" },
-    "solid",
-    { featured: true, slug: "camisa-selecao-italia-i-22-23" },
-  ),
-  camisa(
-    "brasil-i-home",
-    "Camisa Seleção Brasil I",
-    "Brasil",
-    "selecoes",
-    { primary: "#F5C518", secondary: "#1B4D3E", accent: "#1B4D3E" },
-    "solid",
-    { featured: true, slug: "camisa-selecao-brasil-i" },
-  ),
-  camisa(
-    "franca-i-22",
-    "Camisa Seleção França I 2022",
-    "França",
-    "selecoes",
-    { primary: "#213868", secondary: "#C8102E", accent: "#FFFFFF" },
-    "panel",
-    { featured: true, slug: "camisa-selecao-franca-i-2022" },
-  ),
-  camisa(
-    "brasil-ii-away",
-    "Camisa Seleção Brasil II Azul",
-    "Brasil",
-    "selecoes",
-    { primary: "#1E3A8A", secondary: "#16A34A", accent: "#F5C518" },
-    "panel",
-    { featured: true, slug: "camisa-selecao-brasil-ii-azul" },
-  ),
-  camisa(
-    "argentina-i-22",
-    "Camisa Seleção Argentina I Copa 2022",
-    "Argentina",
-    "selecoes",
-    { primary: "#74ACDF", secondary: "#FFFFFF", accent: "#74ACDF" },
-    "stripes",
-    { featured: true, slug: "camisa-selecao-argentina-i-copa-2022" },
-  ),
-  camisa(
-    "portugal-i-22",
-    "Camisa Seleção Portugal I 2022",
-    "Portugal",
-    "selecoes",
-    { primary: "#C8102E", secondary: "#006437", accent: "#F5C518" },
-    "solid",
-    { slug: "camisa-selecao-portugal-i-2022" },
-  ),
-  camisa(
-    "alemanha-i-22",
-    "Camisa Seleção Alemanha I 22/23",
-    "Alemanha",
-    "selecoes",
-    { primary: "#FFFFFF", secondary: "#111111", accent: "#111111" },
-    "panel",
-    { slug: "camisa-selecao-alemanha-i-22-23" },
-  ),
-  camisa(
-    "espanha-i-22",
-    "Camisa Seleção Espanha I 2022",
-    "Espanha",
-    "selecoes",
-    { primary: "#C8102E", secondary: "#F5C518", accent: "#FFFFFF" },
-    "solid",
-    { slug: "camisa-selecao-espanha-i-2022" },
-  ),
-  camisa(
-    "japao-ii-22",
-    "Camisa Seleção Japão II 22/23",
-    "Japão",
-    "selecoes",
-    { primary: "#FFFFFF", secondary: "#C8102E", accent: "#1D4ED8" },
-    "solid",
-    { slug: "camisa-selecao-japao-ii-22-23" },
-  ),
-  camisa(
-    "belgica-i-22",
-    "Camisa Seleção Bélgica I 22/23",
-    "Bélgica",
-    "selecoes",
-    { primary: "#C8102E", secondary: "#111111", accent: "#F5C518" },
-    "panel",
-    { slug: "camisa-selecao-belgica-i-22-23" },
-  ),
-  camisa(
-    "mexico-i-24",
-    "Camisa Seleção México I",
-    "México",
-    "selecoes",
-    { primary: "#006847", secondary: "#C8102E", accent: "#FFFFFF" },
-    "panel",
-    { slug: "camisa-selecao-mexico-i" },
-  ),
-  camisa(
-    "brasil-kit-infantil",
-    "Kit Infantil Seleção Brasil",
-    "Brasil",
-    "selecoes",
-    { primary: "#F5C518", secondary: "#1E3A8A", accent: "#1B4D3E" },
-    "solid",
-    {
-      slug: "kit-infantil-selecao-brasil",
-      gender: "infantil",
-      sizes: KIDS,
-      description: "Camisa + calção infantil da seleção. Tamanhos 6 ao 14.",
-    },
-  ),
+function fromBeta(item: BetaItem, index: number): Product {
+  const category = refineCategory(item.name, item.category);
+  const table = PRICE[category];
+  const gender =
+    item.gender === "feminina" ? "feminino" : item.gender === "infantil" ? "infantil" : "masculino";
+  return {
+    id: item.slug,
+    slug: item.slug,
+    name: item.name,
+    team: item.team,
+    category,
+    gender,
+    version: category === "selecoes" ? "torcedor" : category === "conjuntos" ? "conjunto" : category,
+    price: table.price,
+    originalPrice: table.original,
+    wholesalePrice: table.wholesale,
+    colors: { primary: "#111111", secondary: "#FFFFFF", accent: "#F5C518" },
+    pattern: "solid",
+    featured: index < 8,
+    wholesaleEligible: true,
+    sizes: item.sizes.length ? item.sizes : ADULT,
+    image: item.image,
+    description: `${item.name}. Envio direto ao endereço cadastrado. Sem estoque local.`,
+  };
+}
 
-  camisa(
-    "vasco-1998",
-    "Camisa Vasco I Retrô 1998",
-    "Vasco",
-    "retro",
-    { primary: "#111111", secondary: "#FFFFFF", accent: "#C8102E" },
-    "sash",
-    { featured: true, slug: "camisa-vasco-i-retro-1998" },
-  ),
-  camisa(
-    "barcelona-2005-ronaldinho",
-    "Camiseta Barcelona 2005/2006 (Ronaldinho)",
-    "Barcelona",
-    "retro",
-    { primary: "#A50044", secondary: "#004D98", accent: "#F5C518" },
-    "stripes",
-    { featured: true, slug: "camiseta-barcelona-2005-2006-ronaldinho" },
-  ),
-  camisa(
-    "brasil-1970",
-    "Camisa Brasil 1970 Retrô",
-    "Brasil",
-    "retro",
-    { primary: "#F5C518", secondary: "#1B4D3E", accent: "#1B4D3E" },
-    "solid",
-    { featured: true, slug: "camisa-brasil-1970-retro" },
-  ),
-  camisa(
-    "brasil-1998-9",
-    "Camisa Brasil Retrô 1998 #9",
-    "Brasil",
-    "retro",
-    { primary: "#F5C518", secondary: "#1B4D3E", accent: "#1B4D3E" },
-    "solid",
-    { featured: true, slug: "camisa-brasil-retro-1998-9" },
-  ),
-  camisa(
-    "flamengo-1981",
-    "Camisa Flamengo 1981 Retrô",
-    "Flamengo",
-    "retro",
-    { primary: "#C8102E", secondary: "#111111", accent: "#FFFFFF" },
-    "hoops",
-    { featured: true, slug: "camisa-flamengo-1981-retro" },
-  ),
-  camisa(
-    "milan-1989",
-    "Camisa Milan 1989 Retrô",
-    "Milan",
-    "retro",
-    { primary: "#C8102E", secondary: "#111111", accent: "#FFFFFF" },
-    "stripes",
-    { slug: "camisa-milan-1989-retro" },
-  ),
-  camisa(
-    "santos-1962",
-    "Camisa Santos 1962 Retrô",
-    "Santos",
-    "retro",
-    { primary: "#FFFFFF", secondary: "#111111", accent: "#111111" },
-    "solid",
-    { slug: "camisa-santos-1962-retro" },
-  ),
-  camisa(
-    "palmeiras-parmalat",
-    "Camisa Palmeiras Retrô Parmalat",
-    "Palmeiras",
-    "retro",
-    { primary: "#006437", secondary: "#FFFFFF", accent: "#FFFFFF" },
-    "hoops",
-    { slug: "camisa-palmeiras-retro-parmalat" },
-  ),
-  camisa(
-    "corinthians-retro",
-    "Camisa Corinthians Retrô",
-    "Corinthians",
-    "retro",
-    { primary: "#FFFFFF", secondary: "#111111", accent: "#111111" },
-    "panel",
-    { slug: "camisa-corinthians-retro" },
-  ),
-  camisa(
-    "argentina-retro",
-    "Camisa Argentina Retrô",
-    "Argentina",
-    "retro",
-    { primary: "#74ACDF", secondary: "#FFFFFF", accent: "#111111" },
-    "stripes",
-    { slug: "camisa-argentina-retro" },
-  ),
+const imported = (betaCatalog as BetaItem[]).map(fromBeta);
 
-  camisa(
-    "alemanha-i-jogador",
-    "Camisa Seleção Alemanha I 22/23 — Jogador",
-    "Alemanha",
-    "jogador",
-    { primary: "#FFFFFF", secondary: "#111111", accent: "#111111" },
-    "panel",
-    { featured: true, slug: "camisa-alemanha-i-22-23-jogador" },
-  ),
+const extras: Product[] = [
   camisa(
     "real-madrid-i-jogador",
     "Camisa Real Madrid I 25/26 — Jogador",
@@ -305,7 +112,7 @@ export const products: Product[] = [
     "jogador",
     { primary: "#FFFFFF", secondary: "#F5C518", accent: "#1D3A6E" },
     "solid",
-    { featured: true, slug: "camisa-real-madrid-i-25-jogador" },
+    { featured: true, slug: "camisa-real-madrid-i-25-jogador", image: "/camisas/camisa-real-madrid-i.png" },
   ),
   camisa(
     "barcelona-i-jogador",
@@ -314,7 +121,7 @@ export const products: Product[] = [
     "jogador",
     { primary: "#A50044", secondary: "#004D98", accent: "#F5C518" },
     "stripes",
-    { featured: true, slug: "camisa-barcelona-i-25-jogador" },
+    { featured: true, slug: "camisa-barcelona-i-25-jogador", image: "/camisas/camisa-barcelona-2005.png" },
   ),
   camisa(
     "psg-i-jogador",
@@ -323,7 +130,7 @@ export const products: Product[] = [
     "jogador",
     { primary: "#004170", secondary: "#C8102E", accent: "#FFFFFF" },
     "panel",
-    { featured: true, slug: "camisa-psg-i-25-jogador" },
+    { slug: "camisa-psg-i-25-jogador", image: "/camisas/camisa-psg-i.png" },
   ),
   camisa(
     "liverpool-i-jogador",
@@ -332,43 +139,7 @@ export const products: Product[] = [
     "jogador",
     { primary: "#C8102E", secondary: "#FFFFFF", accent: "#00B2A9" },
     "solid",
-    { slug: "camisa-liverpool-i-25-jogador" },
-  ),
-  camisa(
-    "sao-paulo-i-jogador",
-    "Camisa São Paulo I 23/24 — Jogador",
-    "São Paulo",
-    "jogador",
-    { primary: "#FFFFFF", secondary: "#C8102E", accent: "#111111" },
-    "stripes",
-    { slug: "camisa-sao-paulo-i-23-24-jogador" },
-  ),
-  camisa(
-    "vasco-i-jogador",
-    "Camisa Vasco I 23/24 — Jogador",
-    "Vasco",
-    "jogador",
-    { primary: "#111111", secondary: "#FFFFFF", accent: "#C8102E" },
-    "sash",
-    { slug: "camisa-vasco-i-23-24-jogador" },
-  ),
-  camisa(
-    "corinthians-ii-jogador",
-    "Camisa Corinthians II 23/24 — Jogador",
-    "Corinthians",
-    "jogador",
-    { primary: "#111111", secondary: "#FFFFFF", accent: "#FFFFFF" },
-    "panel",
-    { slug: "camisa-corinthians-ii-23-24-jogador" },
-  ),
-  camisa(
-    "man-city-i-jogador",
-    "Camisa Manchester City I — Jogador",
-    "Manchester City",
-    "jogador",
-    { primary: "#6CABDD", secondary: "#FFFFFF", accent: "#1C2C5B" },
-    "solid",
-    { slug: "camisa-manchester-city-i-jogador" },
+    { slug: "camisa-liverpool-i-25-jogador", image: "/camisas/camisa-liverpool-i.png" },
   ),
   camisa(
     "flamengo-i-jogador",
@@ -377,135 +148,7 @@ export const products: Product[] = [
     "jogador",
     { primary: "#C8102E", secondary: "#111111", accent: "#FFFFFF" },
     "hoops",
-    { slug: "camisa-flamengo-i-25-jogador" },
-  ),
-
-  camisa(
-    "flamengo-i-torcedor",
-    "Camisa Flamengo I 25/26 Torcedor",
-    "Flamengo",
-    "torcedor",
-    { primary: "#C8102E", secondary: "#111111", accent: "#FFFFFF" },
-    "hoops",
-    { featured: true, slug: "camisa-flamengo-i-25-torcedor" },
-  ),
-  camisa(
-    "palmeiras-i-torcedor",
-    "Camisa Palmeiras I 25/26 Torcedor",
-    "Palmeiras",
-    "torcedor",
-    { primary: "#006437", secondary: "#FFFFFF", accent: "#006437" },
-    "solid",
-    { featured: true, slug: "camisa-palmeiras-i-25-torcedor" },
-  ),
-  camisa(
-    "corinthians-i-torcedor",
-    "Camisa Corinthians I 25/26 Torcedor",
-    "Corinthians",
-    "torcedor",
-    { primary: "#FFFFFF", secondary: "#111111", accent: "#111111" },
-    "panel",
-    { featured: true, slug: "camisa-corinthians-i-25-torcedor" },
-  ),
-  camisa(
-    "sao-paulo-i-torcedor",
-    "Camisa São Paulo I 25/26 Torcedor",
-    "São Paulo",
-    "torcedor",
-    { primary: "#FFFFFF", secondary: "#C8102E", accent: "#111111" },
-    "stripes",
-    { featured: true, slug: "camisa-sao-paulo-i-25-torcedor" },
-  ),
-  camisa(
-    "botafogo-i-torcedor",
-    "Camisa Botafogo I 25/26 Torcedor",
-    "Botafogo",
-    "torcedor",
-    { primary: "#111111", secondary: "#FFFFFF", accent: "#FFFFFF" },
-    "stripes",
-    { slug: "camisa-botafogo-i-25-torcedor" },
-  ),
-  camisa(
-    "fluminense-i-torcedor",
-    "Camisa Fluminense I 25/26 Torcedor",
-    "Fluminense",
-    "torcedor",
-    { primary: "#7A0019", secondary: "#006437", accent: "#FFFFFF" },
-    "stripes",
-    { slug: "camisa-fluminense-i-25-torcedor" },
-  ),
-  camisa(
-    "liverpool-i-torcedor",
-    "Camisa Liverpool I Torcedor",
-    "Liverpool",
-    "torcedor",
-    { primary: "#C8102E", secondary: "#FFFFFF", accent: "#FFFFFF" },
-    "solid",
-    { slug: "camisa-liverpool-i-torcedor" },
-  ),
-  camisa(
-    "bayern-i-torcedor",
-    "Camisa Bayern de Munique I Torcedor",
-    "Bayern",
-    "torcedor",
-    { primary: "#DC052D", secondary: "#FFFFFF", accent: "#0066B2" },
-    "hoops",
-    { slug: "camisa-bayern-i-torcedor" },
-  ),
-  camisa(
-    "real-madrid-i-torcedor",
-    "Camisa Real Madrid I Torcedor",
-    "Real Madrid",
-    "torcedor",
-    { primary: "#FFFFFF", secondary: "#1D3A6E", accent: "#F5C518" },
-    "solid",
-    { slug: "camisa-real-madrid-i-torcedor" },
-  ),
-  camisa(
-    "barcelona-i-torcedor",
-    "Camisa Barcelona I 23/24 Torcedor",
-    "Barcelona",
-    "torcedor",
-    { primary: "#A50044", secondary: "#004D98", accent: "#F5C518" },
-    "stripes",
-    { slug: "camisa-barcelona-i-23-24-torcedor" },
-  ),
-  camisa(
-    "man-city-i-torcedor",
-    "Camisa Manchester City I Torcedor",
-    "Manchester City",
-    "torcedor",
-    { primary: "#6CABDD", secondary: "#FFFFFF", accent: "#1C2C5B" },
-    "solid",
-    { slug: "camisa-manchester-city-i-torcedor" },
-  ),
-  camisa(
-    "atletico-madrid-i-torcedor",
-    "Camisa Atlético de Madrid I Torcedor",
-    "Atlético de Madrid",
-    "torcedor",
-    { primary: "#C8102E", secondary: "#FFFFFF", accent: "#00285E" },
-    "stripes",
-    { slug: "camisa-atletico-madrid-i-torcedor" },
-  ),
-
-  camisa(
-    "conjunto-brasil",
-    "Conjunto Brasil Treino",
-    "Brasil",
-    "conjuntos",
-    { primary: "#1B4D3E", secondary: "#F5C518", accent: "#FFFFFF" },
-    "panel",
-    { featured: true, slug: "conjunto-brasil-treino-2026" },
-  ),
-  camisa(
-    "conjunto-flamengo",
-    "Conjunto Flamengo Treino 25/26",
-    "Flamengo",
-    "conjuntos",
-    { primary: "#111111", secondary: "#C8102E", accent: "#FFFFFF" },
-    "panel",
-    { slug: "conjunto-flamengo-treino-2526" },
+    { slug: "camisa-flamengo-i-25-jogador", image: "/camisas/camisa-flamengo-i.png" },
   ),
   camisa(
     "lakers-24",
@@ -560,6 +203,8 @@ export const products: Product[] = [
     },
   ),
 ];
+
+export const products: Product[] = [...imported, ...extras];
 
 export function getProductBySlug(slug: string) {
   return products.find((product) => product.slug === slug);

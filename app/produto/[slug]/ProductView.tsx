@@ -31,7 +31,7 @@ export function ProductView({ product }: { product: Product }) {
   return (
     <div className="mx-auto max-w-7xl px-4 py-10">
       <div className="grid gap-10 lg:grid-cols-[1fr_1fr]">
-        <div className="relative rounded-[28px] border border-border bg-surface p-6">
+        <div className="relative overflow-hidden rounded-[28px] border border-border bg-zinc-100 p-4">
           {off > 0 && (
             <span className="absolute left-6 top-6 rounded-md bg-gold px-2 py-1 text-sm font-extrabold text-zinc-900">
               -{off}%

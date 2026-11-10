@@ -14,7 +14,7 @@ export function ProductImage({
       <img
         src={product.image}
         alt={product.name}
-        className={`h-full w-full object-cover ${className}`}
+        className={`h-full w-full object-contain ${className}`}
         width={640}
         height={640}
       />
