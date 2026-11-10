@@ -1,23 +1,24 @@
 [
   {
-    "slug": "camisa-flamengo-ii-2026-torcedor-feminina",
-    "name": "Camisa Flamengo II 2026 -Torcedor Feminina",
+    "slug": "aston-villa-2026-27-torcedor-azul-e-vinho",
+    "name": "Aston Villa 2026/27 - Torcedor- azul e vinho",
     "category": "torcedor",
-    "image": "/camisas/camisa-flamengo-ii-2026-torcedor-feminina.webp",
+    "image": "/camisas/aston-villa-2026-27-torcedor-azul-e-vinho.jpg",
     "sizes": [
       "P",
       "M",
       "G",
-      "GG"
+      "GG",
+      "2XL"
     ],
-    "team": "Flamengo",
-    "gender": "feminina"
+    "team": "Aston Villa",
+    "gender": "masculino"
   },
   {
-    "slug": "camisa-ac-milan-goleiro-25-26-masculina-torcedor-cinza",
+    "slug": "camisa-ac-milan-goleiro-25-26-masculina-torcedor-verde",
     "name": "Camisa AC Milan Goleiro 25/26 Masculina Torcedor - Verde",
     "category": "torcedor",
-    "image": "/camisas/camisa-ac-milan-goleiro-25-26-masculina-torcedor-cinza.jpg",
+    "image": "/camisas/camisa-ac-milan-goleiro-25-26-masculina-torcedor-verde.jpg",
     "sizes": [
       "P",
       "M",
@@ -30,12 +31,13 @@
     "slug": "camisa-ac-milan-third-26-27-torcedor-masculina",
     "name": "Camisa AC Milan Third 26/27 Torcedor Masculina",
     "category": "torcedor",
-    "image": "/camisas/camisa-ac-milan-third-26-27-torcedor-masculina.png",
+    "image": "/camisas/camisa-ac-milan-third-26-27-torcedor-masculina.jpg",
     "sizes": [
       "P",
       "M",
       "G",
-      "GG"
+      "GG",
+      "2XL"
     ],
     "team": "AC Milan",
     "gender": "masculino"
@@ -44,7 +46,7 @@
     "slug": "camisa-ajax-away-2025-26-masculina-azul-marinho",
     "name": "Camisa Ajax Away 2025/26 Masculina - Azul Marinho",
     "category": "torcedor",
-    "image": "/camisas/camisa-ajax-away-2025-26-masculina-azul-marinho.webp",
+    "image": "/camisas/camisa-ajax-away-2025-26-masculina-azul-marinho.jpg",
     "sizes": [
       "P",
       "M",
@@ -57,20 +59,30 @@
   {
     "slug": "camisa-argentina-2026-copa-do-mundo-torcedor-branca",
     "name": "Camisa Argentina 2026 Copa do Mundo torcedor- Branca",
-    "category": "torcedor",
+    "category": "selecoes",
     "image": "/camisas/camisa-argentina-2026-copa-do-mundo-torcedor-branca.jpg",
     "sizes": [
-      "GG",
-      "XXL"
+      "M"
     ],
     "team": "Argentina",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-argelia-i-2026-27-adidas-masculina",
+    "name": "Camisa Argélia I 2026/27 adidas Masculina",
+    "category": "selecoes",
+    "image": "/camisas/camisa-argelia-i-2026-27-adidas-masculina.jpg",
+    "sizes": [
+      "G"
+    ],
+    "team": "Argélia",
     "gender": "masculino"
   },
   {
     "slug": "camisa-arsenal-25-26-torcedor-azul",
     "name": "Camisa Arsenal 25/26 Torcedor - azul",
     "category": "torcedor",
-    "image": "/camisas/camisa-arsenal-25-26-torcedor-azul.jpeg",
+    "image": "/camisas/camisa-arsenal-25-26-torcedor-azul.jpg",
     "sizes": [
       "M",
       "GG"
@@ -82,7 +94,7 @@
     "slug": "camisa-arsenal-home-26-27-torcedor-masculina-vermelho",
     "name": "Camisa Arsenal Home 26/27 Torcedor Masculina - Vermelho",
     "category": "torcedor",
-    "image": "/camisas/camisa-arsenal-home-26-27-torcedor-masculina-vermelho.webp",
+    "image": "/camisas/camisa-arsenal-home-26-27-torcedor-masculina-vermelho.jpg",
     "sizes": [
       "P",
       "M",
@@ -95,7 +107,7 @@
   {
     "slug": "camisa-arsenal-pre-jogo-25-26-torcedor-vermelha",
     "name": "Camisa Arsenal Pré-Jogo 25/26 Torcedor - Vermelha",
-    "category": "torcedor",
+    "category": "conjuntos",
     "image": "/camisas/camisa-arsenal-pre-jogo-25-26-torcedor-vermelha.jpg",
     "sizes": [
       "P",
@@ -107,10 +119,10 @@
     "gender": "masculino"
   },
   {
-    "slug": "camisa-atletico-de-madrid-i-2025-26-torcedor-vermelha",
+    "slug": "camisa-atletico-de-madrid-i-25-26-torcedor-vermelha",
     "name": "Camisa Atlético de Madrid I 25/26 Torcedor - Vermelha",
     "category": "torcedor",
-    "image": "/camisas/camisa-atletico-de-madrid-i-2025-26-torcedor-vermelha.jpg",
+    "image": "/camisas/camisa-atletico-de-madrid-i-25-26-torcedor-vermelha.jpg",
     "sizes": [
       "P",
       "M",
@@ -122,10 +134,10 @@
     "gender": "masculino"
   },
   {
-    "slug": "camisa-atletico-de-madrid-ii-25-26-torcedor-azul",
+    "slug": "camisa-atletico-de-madrid-ii-25-26-torcedor-azul-escuro",
     "name": "Camisa Atlético de Madrid II 25/26 Torcedor - Azul escuro",
     "category": "torcedor",
-    "image": "/camisas/camisa-atletico-de-madrid-ii-25-26-torcedor-azul.jpg",
+    "image": "/camisas/camisa-atletico-de-madrid-ii-25-26-torcedor-azul-escuro.jpg",
     "sizes": [
       "P",
       "M",
@@ -137,10 +149,10 @@
     "gender": "masculino"
   },
   {
-    "slug": "camisa-atletico-de-madrid-iii-total-90-25-26-torcedor-azul",
+    "slug": "camisa-atletico-de-madrid-iii-total-90-25-26-torcedor-azul-claro",
     "name": "Camisa Atlético de Madrid III Total 90 25/26 Torcedor - Azul claro",
     "category": "torcedor",
-    "image": "/camisas/camisa-atletico-de-madrid-iii-total-90-25-26-torcedor-azul.jpg",
+    "image": "/camisas/camisa-atletico-de-madrid-iii-total-90-25-26-torcedor-azul-claro.jpg",
     "sizes": [
       "P",
       "M",
@@ -157,6 +169,9 @@
     "category": "torcedor",
     "image": "/camisas/camisa-atletico-mineiro-25-torcedor-preto-e-dourado.jpg",
     "sizes": [
+      "P",
+      "M",
+      "G",
       "GG",
       "2XL"
     ],
@@ -167,7 +182,7 @@
     "slug": "camisa-atletico-mineiro-26-27-torcedor-branca",
     "name": "Camisa Atlético Mineiro 26/27 Torcedor - branca",
     "category": "torcedor",
-    "image": "/camisas/camisa-atletico-mineiro-26-27-torcedor-branca.jpeg",
+    "image": "/camisas/camisa-atletico-mineiro-26-27-torcedor-branca.jpg",
     "sizes": [
       "P",
       "M",
@@ -182,7 +197,7 @@
     "slug": "camisa-atletico-mineiro-26-27-torcedor-preta-e-branca",
     "name": "Camisa Atlético Mineiro 26/27 Torcedor - preta e branca",
     "category": "torcedor",
-    "image": "/camisas/camisa-atletico-mineiro-26-27-torcedor-preta-e-branca.jpeg",
+    "image": "/camisas/camisa-atletico-mineiro-26-27-torcedor-preta-e-branca.jpg",
     "sizes": [
       "P",
       "M",
@@ -194,10 +209,10 @@
     "gender": "masculino"
   },
   {
-    "slug": "camisa-atletico-mineiro-26-27-torcedor-branca-6a877dc26c5a2",
+    "slug": "camisa-atletico-mineiro-26-27-torcedor-feminina-branca-e-preta",
     "name": "Camisa Atlético Mineiro 26/27 Torcedor feminina - branca e preta",
     "category": "torcedor",
-    "image": "/camisas/camisa-atletico-mineiro-26-27-torcedor-branca-6a877dc26c5a2.jpeg",
+    "image": "/camisas/camisa-atletico-mineiro-26-27-torcedor-feminina-branca-e-preta.jpg",
     "sizes": [
       "P",
       "M",
@@ -209,10 +224,10 @@
     "gender": "feminina"
   },
   {
-    "slug": "camisa-atletico-mineiro-iii-24-adidas-masculina-preto",
+    "slug": "camisa-atletico-mineiro-iii-24-masculina-preto",
     "name": "Camisa Atlético Mineiro III 24 Masculina - Preto",
     "category": "torcedor",
-    "image": "/camisas/camisa-atletico-mineiro-iii-24-adidas-masculina-preto.webp",
+    "image": "/camisas/camisa-atletico-mineiro-iii-24-masculina-preto.jpg",
     "sizes": [
       "P",
       "M",
@@ -223,54 +238,76 @@
     "gender": "masculino"
   },
   {
-    "slug": "camisa-bahia-third-2025-26-torcedor-masculina-vinho",
-    "name": "Camisa Bahia Third 2025/26 Torcedor Masculina - VINHO",
+    "slug": "camisa-bahia-26-27-branca-modelo-torcedor",
+    "name": "Camisa Bahia 26/27 Branca Modelo Torcedor",
     "category": "torcedor",
-    "image": "/camisas/camisa-bahia-third-2025-26-torcedor-masculina-vinho.webp",
+    "image": "/camisas/camisa-bahia-26-27-branca-modelo-torcedor.jpg",
     "sizes": [
       "P",
       "M",
       "G",
       "GG",
-      "2XL",
-      "3XL"
+      "2XL"
     ],
     "team": "Bahia",
     "gender": "masculino"
   },
   {
-    "slug": "camisa-bayern-de-munique-i-2026-27-adidas-torcedor-masculina",
-    "name": "Camisa Bayern de Munique I 2026/27 adidas Torcedor Masculina",
+    "slug": "camisa-bahia-third-2025-26-torcedor-masculina-vinho",
+    "name": "Camisa Bahia Third 2025/26 Torcedor Masculina - VINHO",
     "category": "torcedor",
-    "image": "/camisas/camisa-bayern-de-munique-i-2026-27-adidas-torcedor-masculina.jpeg",
+    "image": "/camisas/camisa-bahia-third-2025-26-torcedor-masculina-vinho.jpg",
     "sizes": [
       "P",
       "M",
       "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Bahia",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-barcelona-nike-i-2026-27-torcedor-pro-masculina",
+    "name": "Camisa Barcelona Nike I 2026/27 Torcedor Pro Masculina",
+    "category": "torcedor",
+    "image": "/camisas/camisa-barcelona-nike-i-2026-27-torcedor-pro-masculina.jpg",
+    "sizes": [
       "GG"
     ],
-    "team": "Bayern",
+    "team": "Barcelona",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-barcelona-nike-iii-2026-27-torcedor",
+    "name": "Camisa Barcelona Nike III 2026/27 Torcedor",
+    "category": "torcedor",
+    "image": "/camisas/camisa-barcelona-nike-iii-2026-27-torcedor.jpg",
+    "sizes": [
+      "P",
+      "M"
+    ],
+    "team": "Barcelona",
     "gender": "masculino"
   },
   {
     "slug": "camisa-borussia-dortmund-home-24-25-torcedor-amarela",
     "name": "Camisa Borussia Dortmund Home 24/25 Torcedor - Amarela",
     "category": "torcedor",
-    "image": "/camisas/camisa-borussia-dortmund-home-24-25-torcedor-amarela.webp",
+    "image": "/camisas/camisa-borussia-dortmund-home-24-25-torcedor-amarela.jpg",
     "sizes": [
       "P",
       "M",
-      "G",
-      "GG"
+      "G"
     ],
     "team": "Borussia Dortmund",
     "gender": "masculino"
   },
   {
-    "slug": "camisa-borussia-dortmund-home-24-25-torcedor-amarela-6a7bb6d4c28a2",
+    "slug": "camisa-borussia-dortmund-home-26-27-torcedor-amarela",
     "name": "Camisa Borussia Dortmund Home 26/27 Torcedor - Amarela",
     "category": "torcedor",
-    "image": "/camisas/camisa-borussia-dortmund-home-24-25-torcedor-amarela-6a7bb6d4c28a2.jpeg",
+    "image": "/camisas/camisa-borussia-dortmund-home-26-27-torcedor-amarela.jpg",
     "sizes": [
       "P",
       "M",
@@ -279,6 +316,21 @@
       "2XL"
     ],
     "team": "Borussia Dortmund",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-bayern-de-munique-i-2026-27-adidas-torcedor-masculina",
+    "name": "Camisa Bayern de Munique I 2026/27 adidas Torcedor Masculina",
+    "category": "torcedor",
+    "image": "/camisas/camisa-bayern-de-munique-i-2026-27-adidas-torcedor-masculina.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "G1"
+    ],
+    "team": "Bayern de Munique",
     "gender": "masculino"
   },
   {
@@ -296,8 +348,9 @@
     "slug": "camisa-botafogo-i-25-26-torcedor-branco-e-preto",
     "name": "Camisa Botafogo I 25/26 Torcedor - Branco e Preto",
     "category": "torcedor",
-    "image": "/camisas/camisa-botafogo-i-25-26-torcedor-branco-e-preto.png",
+    "image": "/camisas/camisa-botafogo-i-25-26-torcedor-branco-e-preto.jpg",
     "sizes": [
+      "P",
       "M",
       "G"
     ],
@@ -305,10 +358,10 @@
     "gender": "masculino"
   },
   {
-    "slug": "camisa-botafogo-iii-2025-reebok-juvenil-branca",
+    "slug": "camisa-botafogo-iii-2025-26-adulto-branca",
     "name": "Camisa Botafogo III 2025/26 adulto - Branca",
     "category": "torcedor",
-    "image": "/camisas/camisa-botafogo-iii-2025-reebok-juvenil-branca.webp",
+    "image": "/camisas/camisa-botafogo-iii-2025-26-adulto-branca.jpg",
     "sizes": [
       "P"
     ],
@@ -318,7 +371,7 @@
   {
     "slug": "camisa-brasil-1-retro-1998-amarela-lisa",
     "name": "Camisa Brasil 1 Retrô 1998- Amarela Lisa",
-    "category": "torcedor",
+    "category": "retro",
     "image": "/camisas/camisa-brasil-1-retro-1998-amarela-lisa.jpg",
     "sizes": [
       "P",
@@ -331,10 +384,10 @@
     "gender": "masculino"
   },
   {
-    "slug": "camisa-brasil-nike-i-2026-27-torcedor-pro-masculina",
+    "slug": "camisa-brasil-26-27-torcedor-pro-masculina",
     "name": "Camisa Brasil 26/27 Torcedor Pro Masculina",
-    "category": "torcedor",
-    "image": "/camisas/camisa-brasil-nike-i-2026-27-torcedor-pro-masculina.webp",
+    "category": "selecoes",
+    "image": "/camisas/camisa-brasil-26-27-torcedor-pro-masculina.jpg",
     "sizes": [
       "P",
       "M",
@@ -346,10 +399,10 @@
     "gender": "masculino"
   },
   {
-    "slug": "camisa-selecao-brasil-25-26-feminino-amarela-com-estrelas",
+    "slug": "camisa-brasil-feminina-branca-e-dourado-polo",
     "name": "Camisa brasil feminina branca e dourado polo",
-    "category": "torcedor",
-    "image": "/camisas/camisa-selecao-brasil-25-26-feminino-amarela-com-estrelas.png",
+    "category": "selecoes",
+    "image": "/camisas/camisa-brasil-feminina-branca-e-dourado-polo.jpg",
     "sizes": [
       "P",
       "M",
@@ -360,17 +413,6 @@
     "gender": "feminina"
   },
   {
-    "slug": "camisa-celtic-fc-ii-2025-26-torcedor",
-    "name": "Camisa Celtic FC II 2025/26 Torcedor",
-    "category": "torcedor",
-    "image": "/camisas/camisa-celtic-fc-ii-2025-26-torcedor.webp",
-    "sizes": [
-      "G"
-    ],
-    "team": "Celtic",
-    "gender": "masculino"
-  },
-  {
     "slug": "camisa-chelsea-fc-ii-25-26-torcedor-off-white",
     "name": "Camisa Chelsea FC II 25/26 Torcedor - Off White",
     "category": "torcedor",
@@ -378,9 +420,35 @@
     "sizes": [
       "P",
       "GG",
+      "3XL",
       "XXL"
     ],
     "team": "Chelsea",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-celtic-fc-ii-2025-26-torcedor",
+    "name": "Camisa Celtic FC II 2025/26 Torcedor",
+    "category": "torcedor",
+    "image": "/camisas/camisa-celtic-fc-ii-2025-26-torcedor.jpg",
+    "sizes": [
+      "G",
+      "GG"
+    ],
+    "team": "Celtic",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-celtic-i-24-25-torcedor-verde-e-branca",
+    "name": "Camisa Celtic I 24/25 Torcedor - Verde e Branca",
+    "category": "torcedor",
+    "image": "/camisas/camisa-celtic-i-24-25-torcedor-verde-e-branca.jpg",
+    "sizes": [
+      "P",
+      "GG",
+      "XXL"
+    ],
+    "team": "Celtic",
     "gender": "masculino"
   },
   {
@@ -390,6 +458,8 @@
     "image": "/camisas/camisa-chelsea-home-25-26-torcedor-azul.jpg",
     "sizes": [
       "P",
+      "M",
+      "G",
       "GG",
       "XXL"
     ],
@@ -397,9 +467,37 @@
     "gender": "masculino"
   },
   {
+    "slug": "camisa-chelsea-ii-26-27-torcedor-nike-masculina-preta-e-amarela",
+    "name": "Camisa Chelsea II 26/27 Torcedor Nike Masculina - Preta e amarela",
+    "category": "torcedor",
+    "image": "/camisas/camisa-chelsea-ii-26-27-torcedor-nike-masculina-preta-e-amarela.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G"
+    ],
+    "team": "Chelsea",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-corinthians-preta-e-branca-masculina",
+    "name": "Camisa Corinthians - Preta e branca Masculina",
+    "category": "torcedor",
+    "image": "/camisas/camisa-corinthians-preta-e-branca-masculina.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "XXL"
+    ],
+    "team": "Corinthians",
+    "gender": "masculino"
+  },
+  {
     "slug": "camisa-corinthians-25-treino-roxo",
     "name": "Camisa Corinthians 25 Treino - Roxo",
-    "category": "torcedor",
+    "category": "conjuntos",
     "image": "/camisas/camisa-corinthians-25-treino-roxo.jpg",
     "sizes": [
       "P",
@@ -412,10 +510,22 @@
     "gender": "masculino"
   },
   {
+    "slug": "camisa-corinthians-25-26-torcedor-preta-e-laranja",
+    "name": "Camisa Corinthians 25/26 -torcedor preta e laranja",
+    "category": "torcedor",
+    "image": "/camisas/camisa-corinthians-25-26-torcedor-preta-e-laranja.jpg",
+    "sizes": [
+      "G",
+      "GG"
+    ],
+    "team": "Corinthians",
+    "gender": "masculino"
+  },
+  {
     "slug": "camisa-corinthians-26-treino-vinho",
     "name": "Camisa Corinthians 26 Treino - vinho",
-    "category": "torcedor",
-    "image": "/camisas/camisa-corinthians-26-treino-vinho.jpeg",
+    "category": "conjuntos",
+    "image": "/camisas/camisa-corinthians-26-treino-vinho.jpg",
     "sizes": [
       "P",
       "M",
@@ -427,37 +537,25 @@
     "gender": "masculino"
   },
   {
-    "slug": "camisa-corinthians-preta-e-branca",
-    "name": "Camisa Corinthians 26/27 Torcedor - Preta e branca Masculina",
-    "category": "torcedor",
-    "image": "/camisas/camisa-corinthians-preta-e-branca.jpeg",
-    "sizes": [
-      "P",
-      "M",
-      "GG"
-    ],
-    "team": "Corinthians",
-    "gender": "masculino"
-  },
-  {
-    "slug": "camisa-corinthians-i-26-27-torcedor-pro-feminino",
+    "slug": "camisa-corinthians-i-26-27-torcedor-pro-feminina",
     "name": "Camisa Corinthians I 26/27 Torcedor Pro feminina",
     "category": "torcedor",
-    "image": "/camisas/camisa-corinthians-i-26-27-torcedor-pro-feminino.png",
+    "image": "/camisas/camisa-corinthians-i-26-27-torcedor-pro-feminina.jpg",
     "sizes": [
       "P",
       "M",
       "G",
-      "GG"
+      "GG",
+      "XXL"
     ],
     "team": "Corinthians",
     "gender": "feminina"
   },
   {
-    "slug": "camisa-corinthians-nike-i-2026-27-torcedor-pro-masculina",
+    "slug": "camisa-corinthians-i-26-27-torcedor-pro-masculina",
     "name": "Camisa Corinthians I 26/27 Torcedor Pro Masculina",
     "category": "torcedor",
-    "image": "/camisas/camisa-corinthians-nike-i-2026-27-torcedor-pro-masculina.jpg",
+    "image": "/camisas/camisa-corinthians-i-26-27-torcedor-pro-masculina.jpg",
     "sizes": [
       "P",
       "M",
@@ -469,12 +567,41 @@
     "gender": "masculino"
   },
   {
-    "slug": "camisa-corinthians-treino-pre-jogo-nike-preta-e-branca",
+    "slug": "camisa-corinthians-jogo-torcedor-nike-preta-e-branca",
     "name": "Camisa Corinthians jogo torcedor Nike - Preta e Branca",
     "category": "torcedor",
-    "image": "/camisas/camisa-corinthians-treino-pre-jogo-nike-preta-e-branca.jpg",
+    "image": "/camisas/camisa-corinthians-jogo-torcedor-nike-preta-e-branca.jpg",
     "sizes": [
-      "3XL"
+      "2XL",
+      "XXL"
+    ],
+    "team": "Corinthians",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-corinthians-nike-iii-2026-27-torcedor-pro-masculina",
+    "name": "Camisa Corinthians Nike III 2026/27 Torcedor Pro Masculina",
+    "category": "torcedor",
+    "image": "/camisas/camisa-corinthians-nike-iii-2026-27-torcedor-pro-masculina.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Corinthians",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-corinthians-socrates-oficial-licenciada-retro-democracia",
+    "name": "Camisa Corinthians Sócrates Oficial Licenciada Retro Democracia",
+    "category": "retro",
+    "image": "/camisas/camisa-corinthians-socrates-oficial-licenciada-retro-democracia.jpg",
+    "sizes": [
+      "G",
+      "GG",
+      "2XL"
     ],
     "team": "Corinthians",
     "gender": "masculino"
@@ -482,8 +609,8 @@
   {
     "slug": "camisa-cruzeiro-26-27-treino-adidas-masculina-azul",
     "name": "Camisa Cruzeiro 26/27 Treino Adidas Masculina - Azul",
-    "category": "torcedor",
-    "image": "/camisas/camisa-cruzeiro-26-27-treino-adidas-masculina-azul.png",
+    "category": "conjuntos",
+    "image": "/camisas/camisa-cruzeiro-26-27-treino-adidas-masculina-azul.jpg",
     "sizes": [
       "P",
       "M",
@@ -497,11 +624,12 @@
   {
     "slug": "camisa-cruzeiro-26-27-treino-adidas-masculina-azul-escuro",
     "name": "Camisa Cruzeiro 26/27 Treino Adidas Masculina - Azul Escuro",
-    "category": "torcedor",
-    "image": "/camisas/camisa-cruzeiro-26-27-treino-adidas-masculina-azul-escuro.png",
+    "category": "conjuntos",
+    "image": "/camisas/camisa-cruzeiro-26-27-treino-adidas-masculina-azul-escuro.jpg",
     "sizes": [
       "P",
       "M",
+      "G",
       "GG",
       "G1"
     ],
@@ -512,7 +640,7 @@
     "slug": "camisa-cruzeiro-especial-goleiro",
     "name": "Camisa Cruzeiro Especial Goleiro",
     "category": "torcedor",
-    "image": "/camisas/camisa-cruzeiro-especial-goleiro.jpeg",
+    "image": "/camisas/camisa-cruzeiro-especial-goleiro.jpg",
     "sizes": [
       "P",
       "M",
@@ -525,24 +653,9 @@
   },
   {
     "slug": "camisa-cruzeiro-home-2025-26-torcedor-azul",
-    "name": "Camisa Cruzeiro Home 2025/26 Torcedor - Azul",
+    "name": "Camisa Cruzeiro Home 2025/26 Torcedor ? Azul",
     "category": "torcedor",
-    "image": "/camisas/camisa-cruzeiro-home-2025-26-torcedor-azul.webp",
-    "sizes": [
-      "P",
-      "G",
-      "GG",
-      "2XL",
-      "3XL"
-    ],
-    "team": "Cruzeiro",
-    "gender": "masculino"
-  },
-  {
-    "slug": "camisa-cruzeiro-i-26-27-s-n-torcedor-adidas-masculina-azul-royal",
-    "name": "Camisa Cruzeiro I 26/27 s/n Torcedor Adidas Masculina - Azul Royal",
-    "category": "torcedor",
-    "image": "/camisas/camisa-cruzeiro-i-26-27-s-n-torcedor-adidas-masculina-azul-royal.png",
+    "image": "/camisas/camisa-cruzeiro-home-2025-26-torcedor-azul.jpg",
     "sizes": [
       "P",
       "M",
@@ -554,26 +667,55 @@
     "gender": "masculino"
   },
   {
-    "slug": "camisa-cruzeiro-i-26-27-s-n-torcedor-adidas-masculina-azul-royal-6a8787c4a5f78",
-    "name": "Camisa Cruzeiro I 26/27 s/n Torcedor Adidas Masculina - branca",
+    "slug": "camisa-cruzeiro-i-26-27-s-n-torcedor-adidas-masculina-azul-royal",
+    "name": "Camisa Cruzeiro I 26/27 s/n Torcedor Adidas Masculina - Azul Royal",
     "category": "torcedor",
-    "image": "/camisas/camisa-cruzeiro-i-26-27-s-n-torcedor-adidas-masculina-azul-royal-6a8787c4a5f78.jpeg",
+    "image": "/camisas/camisa-cruzeiro-i-26-27-s-n-torcedor-adidas-masculina-azul-royal.jpg",
     "sizes": [
       "P",
       "M",
       "G",
       "GG",
-      "3XL",
-      "G1"
+      "2XL"
     ],
     "team": "Cruzeiro",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-cruzeiro-i-26-27-s-n-torcedor-adidas-masculina-branca",
+    "name": "Camisa Cruzeiro I 26/27 s/n Torcedor Adidas Masculina - branca",
+    "category": "torcedor",
+    "image": "/camisas/camisa-cruzeiro-i-26-27-s-n-torcedor-adidas-masculina-branca.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "3XL"
+    ],
+    "team": "Cruzeiro",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-de-goleiro-iii-cr-flamengo-26-27-torcedor",
+    "name": "Camisa de Goleiro III CR Flamengo 26/27 - Torcedor",
+    "category": "torcedor",
+    "image": "/camisas/camisa-de-goleiro-iii-cr-flamengo-26-27-torcedor.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Flamengo",
     "gender": "masculino"
   },
   {
     "slug": "camisa-do-arsenal-ii-26-27-adidas-masculina-torcedor",
     "name": "Camisa do Arsenal II 26/27 adidas Masculina torcedor",
     "category": "torcedor",
-    "image": "/camisas/camisa-do-arsenal-ii-26-27-adidas-masculina-torcedor.png",
+    "image": "/camisas/camisa-do-arsenal-ii-26-27-adidas-masculina-torcedor.jpg",
     "sizes": [
       "P",
       "M",
@@ -585,15 +727,16 @@
     "gender": "masculino"
   },
   {
-    "slug": "camisa-do-corinthians-i-25-nike-masculina-torcedor",
+    "slug": "camisa-do-corinthians-i-25-masculina-torcedor",
     "name": "Camisa do Corinthians I 25 Masculina Torcedor",
     "category": "torcedor",
-    "image": "/camisas/camisa-do-corinthians-i-25-nike-masculina-torcedor.jpg",
+    "image": "/camisas/camisa-do-corinthians-i-25-masculina-torcedor.jpg",
     "sizes": [
       "P",
+      "M",
       "G",
       "GG",
-      "XXL"
+      "3XL"
     ],
     "team": "Corinthians",
     "gender": "masculino"
@@ -602,7 +745,7 @@
     "slug": "camisa-do-corinthians-nike-ii-2026-27-torcedora-pro-feminina",
     "name": "Camisa do Corinthians Nike II 2026/27 Torcedora Pro Feminina",
     "category": "torcedor",
-    "image": "/camisas/camisa-do-corinthians-nike-ii-2026-27-torcedora-pro-feminina.webp",
+    "image": "/camisas/camisa-do-corinthians-nike-ii-2026-27-torcedora-pro-feminina.jpg",
     "sizes": [
       "P",
       "M",
@@ -615,8 +758,8 @@
   {
     "slug": "camisa-do-mexico-home-copa-2026-feminina",
     "name": "Camisa do México Home Copa 2026 - Feminina",
-    "category": "torcedor",
-    "image": "/camisas/camisa-do-mexico-home-copa-2026-feminina.webp",
+    "category": "selecoes",
+    "image": "/camisas/camisa-do-mexico-home-copa-2026-feminina.jpg",
     "sizes": [
       "P",
       "M",
@@ -624,48 +767,1627 @@
       "GG",
       "2XL"
     ],
-    "team": "do México",
+    "team": "México",
     "gender": "feminina"
   },
   {
-    "slug": "camisa-do-santos-i-26-27-umbro-torcedor-masculina",
+    "slug": "camisa-do-palmeiras-iii-2026-27-puma-torcedor-masculina",
+    "name": "Camisa do Palmeiras III 2026/27 Puma Torcedor Masculina",
+    "category": "torcedor",
+    "image": "/camisas/camisa-do-palmeiras-iii-2026-27-puma-torcedor-masculina.jpg",
+    "sizes": [
+      "M",
+      "GG",
+      "2XL",
+      "3XL"
+    ],
+    "team": "Palmeiras",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-do-santos-i-26-27-torcedor-masculina",
     "name": "Camisa do Santos I 26/27 Torcedor Masculina",
     "category": "torcedor",
-    "image": "/camisas/camisa-do-santos-i-26-27-umbro-torcedor-masculina.jpg",
+    "image": "/camisas/camisa-do-santos-i-26-27-torcedor-masculina.jpg",
     "sizes": [
       "P",
       "M",
       "G",
       "GG",
-      "3XL",
       "XXL"
     ],
     "team": "Santos",
     "gender": "masculino"
   },
   {
-    "slug": "camisa-fc-porto-ii-torcedor-25-26-salmao-claro-sunfade-pink",
-    "name": "Camisa FC Porto II Torcedor 25/26 - Salmão claro",
-    "category": "torcedor",
-    "image": "/camisas/camisa-fc-porto-ii-torcedor-25-26-salmao-claro-sunfade-pink.webp",
+    "slug": "camisa-flamengo-26-27-treino-adidas-masculina-marrom",
+    "name": "Camisa Flamengo 26/27 Treino Adidas Masculina - Marrom",
+    "category": "conjuntos",
+    "image": "/camisas/camisa-flamengo-26-27-treino-adidas-masculina-marrom.jpg",
     "sizes": [
-      "GG",
-      "2XL"
+      "M",
+      "G",
+      "GG"
     ],
-    "team": "FC Porto",
+    "team": "Flamengo",
     "gender": "masculino"
   },
   {
-    "slug": "camisa-flamengo-25-26-baseball-vermelha",
-    "name": "Camisa Flamengo 25/26 Baseball - Vermelha",
+    "slug": "camisa-fc-barcelona-14-15-away-neymar-jr-11-ano-do-triplete-champions-league",
+    "name": "Camisa FC Barcelona 14/15 Away - Neymar Jr 11 (Ano do Triplete / Champions League)",
     "category": "torcedor",
-    "image": "/camisas/camisa-flamengo-25-26-baseball-vermelha.jpg",
+    "image": "/camisas/camisa-fc-barcelona-14-15-away-neymar-jr-11-ano-do-triplete-champions-league.jpg",
+    "sizes": [
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Barcelona",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-fc-porto-ii-torcedor-25-26-salmao-claro",
+    "name": "Camisa FC Porto II Torcedor 25/26 - Salmão claro (",
+    "category": "torcedor",
+    "image": "/camisas/camisa-fc-porto-ii-torcedor-25-26-salmao-claro.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "GG",
+      "2XL"
+    ],
+    "team": "Porto",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-flamengo-comissao-25-torcedor-azul",
+    "name": "Camisa Flamengo Comissão 25 Torcedor - Azul",
+    "category": "torcedor",
+    "image": "/camisas/camisa-flamengo-comissao-25-torcedor-azul.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Flamengo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-flamengo-feminina-torcedor-preta-e-vermelha",
+    "name": "Camisa Flamengo feminina Torcedor - preta e vermelha",
+    "category": "torcedor",
+    "image": "/camisas/camisa-flamengo-feminina-torcedor-preta-e-vermelha.jpg",
     "sizes": [
       "P",
       "M",
       "G",
       "GG",
       "XXL"
+    ],
+    "team": "Flamengo",
+    "gender": "feminina"
+  },
+  {
+    "slug": "camisa-flamengo-goleiro-iii-2025-torcedor-vermelho",
+    "name": "Camisa Flamengo Goleiro III 2025 Torcedor - Vermelho",
+    "category": "torcedor",
+    "image": "/camisas/camisa-flamengo-goleiro-iii-2025-torcedor-vermelho.jpg",
+    "sizes": [
+      "G",
+      "XXL"
+    ],
+    "team": "Flamengo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-flamengo-i-2026-torcedor-vermelho-e-preto",
+    "name": "Camisa Flamengo I 2026 Torcedor - Vermelho e Preto",
+    "category": "torcedor",
+    "image": "/camisas/camisa-flamengo-i-2026-torcedor-vermelho-e-preto.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "XL",
+      "XXL"
+    ],
+    "team": "Flamengo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-flamengo-i-2026-27-torcedor-branca",
+    "name": "Camisa Flamengo I 2026/27 Torcedor - Branca",
+    "category": "torcedor",
+    "image": "/camisas/camisa-flamengo-i-2026-27-torcedor-branca.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Flamengo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-flamengo-icon-2025-torcedor-vermelha",
+    "name": "Camisa Flamengo Icon 2025 Torcedor - Vermelha",
+    "category": "torcedor",
+    "image": "/camisas/camisa-flamengo-icon-2025-torcedor-vermelha.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "team": "Flamengo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-flamengo-ii-2026-torcedor-feminina",
+    "name": "Camisa Flamengo II 2026 -Torcedor Feminina",
+    "category": "torcedor",
+    "image": "/camisas/camisa-flamengo-ii-2026-torcedor-feminina.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "team": "Flamengo",
+    "gender": "feminina"
+  },
+  {
+    "slug": "camisa-flamengo-iii-26-27-s-n-torcedor-adidas-feminina-vermelho",
+    "name": "Camisa Flamengo III 26/27 s/n Torcedor Adidas Feminina - Vermelho",
+    "category": "torcedor",
+    "image": "/camisas/camisa-flamengo-iii-26-27-s-n-torcedor-adidas-feminina-vermelho.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "team": "Flamengo",
+    "gender": "feminina"
+  },
+  {
+    "slug": "camisa-flamengo-iii-26-27-s-n-torcedor-adidas-masculina-vermelho",
+    "name": "Camisa Flamengo III 26/27 s/n Torcedor Adidas Masculina- Vermelho",
+    "category": "torcedor",
+    "image": "/camisas/camisa-flamengo-iii-26-27-s-n-torcedor-adidas-masculina-vermelho.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Flamengo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-flamengo-lifestyler-25-26-preto",
+    "name": "Camisa Flamengo Lifestyler 25/26 - Preto",
+    "category": "torcedor",
+    "image": "/camisas/camisa-flamengo-lifestyler-25-26-preto.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "XXL"
+    ],
+    "team": "Flamengo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-flamengo-regatatorcedor-preta-e-vermelha",
+    "name": "Camisa Flamengo regataTorcedor - preta e vermelha",
+    "category": "torcedor",
+    "image": "/camisas/camisa-flamengo-regatatorcedor-preta-e-vermelha.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "team": "Flamengo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-flamengo-pre-jogo-25-26-torcedor-preta",
+    "name": "Camisa Flamengo Pré-Jogo 25/26 Torcedor - Preta",
+    "category": "conjuntos",
+    "image": "/camisas/camisa-flamengo-pre-jogo-25-26-torcedor-preta.jpg",
+    "sizes": [
+      "M",
+      "G",
+      "GG",
+      "2XL",
+      "4XL"
+    ],
+    "team": "Flamengo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-flamengo-third-1995-retro-masculino-azul",
+    "name": "Camisa Flamengo Third 1995 - Retrô Masculino - Azul",
+    "category": "retro",
+    "image": "/camisas/camisa-flamengo-third-1995-retro-masculino-azul.jpg",
+    "sizes": [
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Flamengo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-flamengo-treino-25-26-torcedor-masculina-azul",
+    "name": "Camisa Flamengo Treino 25/26 Torcedor Masculina - Azul",
+    "category": "conjuntos",
+    "image": "/camisas/camisa-flamengo-treino-25-26-torcedor-masculina-azul.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Flamengo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-flamengo-treino-torcedor-azul",
+    "name": "Camisa Flamengo Treino Torcedor - Azul",
+    "category": "conjuntos",
+    "image": "/camisas/camisa-flamengo-treino-torcedor-azul.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "4XL"
+    ],
+    "team": "Flamengo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-fluminense-feminina-branca-26-27-s-n-torcedor",
+    "name": "Camisa Fluminense feminina branca 26/27 s/n Torcedor",
+    "category": "torcedor",
+    "image": "/camisas/camisa-fluminense-feminina-branca-26-27-s-n-torcedor.jpg",
+    "sizes": [
+      "P",
+      "G",
+      "GG",
+      "G1"
+    ],
+    "team": "Fluminense",
+    "gender": "feminina"
+  },
+  {
+    "slug": "camisa-fluminense-feminina-listrada-26-27-s-n-torcedor",
+    "name": "Camisa Fluminense feminina listrada 26/27 s/n Torcedor",
+    "category": "torcedor",
+    "image": "/camisas/camisa-fluminense-feminina-listrada-26-27-s-n-torcedor.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "G1"
+    ],
+    "team": "Fluminense",
+    "gender": "feminina"
+  },
+  {
+    "slug": "camisa-fluminense-ii-26-27torcedor-puma-masculina-branco",
+    "name": "Camisa Fluminense II 26/27Torcedor Puma Masculina - Branco",
+    "category": "torcedor",
+    "image": "/camisas/camisa-fluminense-ii-26-27torcedor-puma-masculina-branco.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Fluminense",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-goleiro-atletico-mineiro-torcedor-amarela",
+    "name": "Camisa Goleiro Atlético Mineiro Torcedor - Amarela",
+    "category": "torcedor",
+    "image": "/camisas/camisa-goleiro-atletico-mineiro-torcedor-amarela.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Atlético Mineiro",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-goleiro-cr-flamengo-26",
+    "name": "Camisa Goleiro CR Flamengo 26",
+    "category": "torcedor",
+    "image": "/camisas/camisa-goleiro-cr-flamengo-26.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Flamengo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-gremio-26-27-torcedor-new-balance",
+    "name": "camisa Gremio 26-27 torcedor new balance",
+    "category": "torcedor",
+    "image": "/camisas/camisa-gremio-26-27-torcedor-new-balance.jpg",
+    "sizes": [
+      "P"
+    ],
+    "team": "Grêmio",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-gremio-26-27-torcedor-new-balance-ii",
+    "name": "camisa Gremio 26-27 torcedor new balance II",
+    "category": "torcedor",
+    "image": "/camisas/camisa-gremio-26-27-torcedor-new-balance-ii.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "G1"
+    ],
+    "team": "Grêmio",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-i-fc-bayern-25-26-torcedor",
+    "name": "Camisa I FC Bayern 25/26 torcedor",
+    "category": "torcedor",
+    "image": "/camisas/camisa-i-fc-bayern-25-26-torcedor.jpg",
+    "sizes": [
+      "G1"
+    ],
+    "team": "I",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-i-fc-bayern-25-26-torcedor-2",
+    "name": "Camisa I FC Bayern 25/26 torcedor",
+    "category": "torcedor",
+    "image": "/camisas/camisa-i-fc-bayern-25-26-torcedor-2.jpg",
+    "sizes": [
+      "M"
+    ],
+    "team": "I",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-ii-jamaica-26-x-bob-marley-preta",
+    "name": "Camisa II Jamaica 26 x Bob Marley Preta",
+    "category": "torcedor",
+    "image": "/camisas/camisa-ii-jamaica-26-x-bob-marley-preta.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "II",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-i-selecao-argentina-2026-home-feminina-branca",
+    "name": "Camisa I Seleção Argentina 2026 Home - Feminina - Branca",
+    "category": "selecoes",
+    "image": "/camisas/camisa-i-selecao-argentina-2026-home-feminina-branca.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Argentina",
+    "gender": "feminina"
+  },
+  {
+    "slug": "camisa-ii-real-madrid-26-27-torcedor",
+    "name": "Camisa II Real Madrid 26/27 TORCEDOR",
+    "category": "torcedor",
+    "image": "/camisas/camisa-ii-real-madrid-26-27-torcedor.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "3XL",
+      "4XL"
+    ],
+    "team": "Real Madrid",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-iii-cr-flamengo-26-27-torcedor",
+    "name": "Camisa III CR Flamengo 26/27 TORCEDOR",
+    "category": "torcedor",
+    "image": "/camisas/camisa-iii-cr-flamengo-26-27-torcedor.jpg",
+    "sizes": [
+      "M"
+    ],
+    "team": "Flamengo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-iii-real-madrid-26-27-versao-do-torcedor",
+    "name": "Camisa III Real Madrid 26/27 Versão do Torcedor",
+    "category": "torcedor",
+    "image": "/camisas/camisa-iii-real-madrid-26-27-versao-do-torcedor.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "2XL"
+    ],
+    "team": "Real Madrid",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-ii-valencia-25-26-torcedor-vermelho",
+    "name": "Camisa II Valencia 25/26 Torcedor - Vermelho",
+    "category": "torcedor",
+    "image": "/camisas/camisa-ii-valencia-25-26-torcedor-vermelho.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL",
+      "3XL",
+      "XXL"
+    ],
+    "team": "II",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-iiii-botafogo-25-26-aura-90-preto-e-branco",
+    "name": "Camisa IIII Botafogo 25/26 Aura 90 - Preto e Branco",
+    "category": "torcedor",
+    "image": "/camisas/camisa-iiii-botafogo-25-26-aura-90-preto-e-branco.jpg",
+    "sizes": [
+      "P",
+      "G",
+      "2XL"
+    ],
+    "team": "Botafogo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-inter-de-milao-iii-25-26-torcedor-preto-e-laranja",
+    "name": "Camisa Inter de Milão III 25/26 Torcedor - Preto e Laranja",
+    "category": "torcedor",
+    "image": "/camisas/camisa-inter-de-milao-iii-25-26-torcedor-preto-e-laranja.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "XXL"
+    ],
+    "team": "Inter",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-internacional-i-26-27-torcedor-masculina-vermelho",
+    "name": "Camisa Internacional I 26/27 Torcedor Masculina - Vermelho",
+    "category": "torcedor",
+    "image": "/camisas/camisa-internacional-i-26-27-torcedor-masculina-vermelho.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "XL",
+      "XXL"
+    ],
+    "team": "Internacional",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-internacional-iii-25-26-s-n-torcedor-masculina-preto",
+    "name": "Camisa Internacional III 25/26 s/n Torcedor Masculina - Preto",
+    "category": "torcedor",
+    "image": "/camisas/camisa-internacional-iii-25-26-s-n-torcedor-masculina-preto.jpg",
+    "sizes": [
+      "P",
+      "GG"
+    ],
+    "team": "Internacional",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-juventus-i-25-26-torcedor-preto-e-branco",
+    "name": "Camisa Juventus I 25/26 Torcedor - Preto e Branco",
+    "category": "torcedor",
+    "image": "/camisas/camisa-juventus-i-25-26-torcedor-preto-e-branco.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Juventus",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-italia-away-originals-torcedor-masculina-branca-azul",
+    "name": "Camisa Itália Away Originals Torcedor Masculina - Branca/Azul",
+    "category": "torcedor",
+    "image": "/camisas/camisa-italia-away-originals-torcedor-masculina-branca-azul.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Itália",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-juventus-ii-25-26-torcedor-azul-celeste",
+    "name": "Camisa Juventus II 25/26 Torcedor - Azul Celeste",
+    "category": "torcedor",
+    "image": "/camisas/camisa-juventus-ii-25-26-torcedor-azul-celeste.jpg",
+    "sizes": [
+      "M",
+      "GG"
+    ],
+    "team": "Juventus",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-lazio-25-26-torcedor-azul",
+    "name": "Camisa Lazio 25/26 Torcedor - Azul",
+    "category": "torcedor",
+    "image": "/camisas/camisa-lazio-25-26-torcedor-azul.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Lazio",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-lazio-aniversario-125-anos-25-26-torcedor-branca",
+    "name": "Camisa Lazio Aniversario 125 Anos 25/26 Torcedor - Branca",
+    "category": "torcedor",
+    "image": "/camisas/camisa-lazio-aniversario-125-anos-25-26-torcedor-branca.jpg",
+    "sizes": [
+      "2XL"
+    ],
+    "team": "Lazio",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-liverpool-26-27torcedor-masculina-vermelha",
+    "name": "Camisa Liverpool 26/27torcedor Masculina - vermelha",
+    "category": "torcedor",
+    "image": "/camisas/camisa-liverpool-26-27torcedor-masculina-vermelha.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "XXL"
+    ],
+    "team": "Liverpool",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-liverpool-fc-iii-25-26-torcedor",
+    "name": "Camisa Liverpool FC III 25/26 - Torcedor",
+    "category": "torcedor",
+    "image": "/camisas/camisa-liverpool-fc-iii-25-26-torcedor.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Liverpool",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-manchester-city-25-26-torcedor-masculina-branca",
+    "name": "Camisa Manchester City 25/26 - Torcedor Masculina - Branca",
+    "category": "torcedor",
+    "image": "/camisas/camisa-manchester-city-25-26-torcedor-masculina-branca.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "GG",
+      "2XL"
+    ],
+    "team": "Manchester City",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-manchester-city-home-26-27-torcedor-azul",
+    "name": "Camisa Manchester City Home 26/27 Torcedor - Azul",
+    "category": "torcedor",
+    "image": "/camisas/camisa-manchester-city-home-26-27-torcedor-azul.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "XXL"
+    ],
+    "team": "Manchester City",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-manchester-city-home-26-27-torcedor-azul-2",
+    "name": "Camisa Manchester City Home 26/27 Torcedor - Azul",
+    "category": "torcedor",
+    "image": "/camisas/camisa-manchester-city-home-26-27-torcedor-azul-2.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "XXL"
+    ],
+    "team": "Manchester City",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-manchester-city-home-25-26-torcedor-azul",
+    "name": "Camisa Manchester City Home 25/26 Torcedor - Azul",
+    "category": "torcedor",
+    "image": "/camisas/camisa-manchester-city-home-25-26-torcedor-azul.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "XXL"
+    ],
+    "team": "Manchester City",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-manchester-city-iii-2025-26-torcedor-cinza",
+    "name": "Camisa Manchester City III 2025/26 Torcedor - Cinza",
+    "category": "torcedor",
+    "image": "/camisas/camisa-manchester-city-iii-2025-26-torcedor-cinza.jpg",
+    "sizes": [
+      "GG",
+      "2XL"
+    ],
+    "team": "Manchester City",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-manchester-united-25-26-torcedor-branca",
+    "name": "Camisa Manchester United 25/26 Torcedor - Branca",
+    "category": "torcedor",
+    "image": "/camisas/camisa-manchester-united-25-26-torcedor-branca.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "XXL"
+    ],
+    "team": "Manchester United",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-manchester-united-25-26-treino-torcedor-vermelho-e-preto",
+    "name": "Camisa Manchester United 25/26 Treino Torcedor - Vermelho e Preto",
+    "category": "conjuntos",
+    "image": "/camisas/camisa-manchester-united-25-26-treino-torcedor-vermelho-e-preto.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL",
+      "3XL",
+      "XXL"
+    ],
+    "team": "Manchester United",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-manchester-united-home-26-27-torcedor-masculina-vermelho",
+    "name": "Camisa Manchester United Home 26/27 Torcedor Masculina - Vermelho",
+    "category": "torcedor",
+    "image": "/camisas/camisa-manchester-united-home-26-27-torcedor-masculina-vermelho.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Manchester United",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-mexico-2026-copa-do-mundo-torcedor-verde",
+    "name": "Camisa Mexico 2026 Copa do Mundo torcedor - Verde",
+    "category": "selecoes",
+    "image": "/camisas/camisa-mexico-2026-copa-do-mundo-torcedor-verde.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "XL"
+    ],
+    "team": "México",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-milan-away-26-27-s-n-torcedor-puma-masculina-branco",
+    "name": "Camisa Milan Away 26/27 s/n Torcedor Puma Masculina - Branco",
+    "category": "torcedor",
+    "image": "/camisas/camisa-milan-away-26-27-s-n-torcedor-puma-masculina-branco.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "2XL",
+      "XL"
+    ],
+    "team": "Milan",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-napoli-away-25-26-torcedor-uniforme-2-branco",
+    "name": "Camisa Napoli Away 25/26 Torcedor Uniforme 2 - Branco",
+    "category": "torcedor",
+    "image": "/camisas/camisa-napoli-away-25-26-torcedor-uniforme-2-branco.jpg",
+    "sizes": [
+      "G",
+      "GG"
+    ],
+    "team": "Napoli",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-milan-iii-25-26-torcedor-puma-amarela",
+    "name": "Camisa Milan III 25/26 - Torcedor Puma - Amarela",
+    "category": "torcedor",
+    "image": "/camisas/camisa-milan-iii-25-26-torcedor-puma-amarela.jpg",
+    "sizes": [
+      "M",
+      "GG",
+      "2XL"
+    ],
+    "team": "Milan",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-olympique-marselha-25-26-torcedor-branca",
+    "name": "Camisa Olympique Marselha 25/26 Torcedor - Branca",
+    "category": "torcedor",
+    "image": "/camisas/camisa-olympique-marselha-25-26-torcedor-branca.jpg",
+    "sizes": [
+      "P",
+      "GG",
+      "XXL"
+    ],
+    "team": "Olympique",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-palmeiras-away-2026-torcedor-feminina",
+    "name": "Camisa Palmeiras Away 2026 Torcedor feminina",
+    "category": "torcedor",
+    "image": "/camisas/camisa-palmeiras-away-2026-torcedor-feminina.jpg",
+    "sizes": [
+      "G",
+      "GG",
+      "XXL"
+    ],
+    "team": "Palmeiras",
+    "gender": "feminina"
+  },
+  {
+    "slug": "camisa-palmeiras-away-2026-torcedor-masculina",
+    "name": "Camisa Palmeiras Away 2026 Torcedor Masculina",
+    "category": "torcedor",
+    "image": "/camisas/camisa-palmeiras-away-2026-torcedor-masculina.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "XXL"
+    ],
+    "team": "Palmeiras",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-palmeiras-edicao-especial-mundial-de-clubes-25-26-torcedor-masculina-bege-e-verde",
+    "name": "Camisa Palmeiras Edição especial Mundial de Clubes 25/26 - Torcedor Masculina - Bege e verde",
+    "category": "torcedor",
+    "image": "/camisas/camisa-palmeiras-edicao-especial-mundial-de-clubes-25-26-torcedor-masculina-bege-e-verde.jpg",
+    "sizes": [
+      "P",
+      "2XL",
+      "3XL"
+    ],
+    "team": "Palmeiras",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-palmeiras-home-2026-torcedor-feminina",
+    "name": "Camisa Palmeiras home 2026 Torcedor feminina",
+    "category": "torcedor",
+    "image": "/camisas/camisa-palmeiras-home-2026-torcedor-feminina.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Palmeiras",
+    "gender": "feminina"
+  },
+  {
+    "slug": "camisa-palmeiras-home-2026-torcedor-masculina",
+    "name": "Camisa Palmeiras HOME 2026 Torcedor Masculina",
+    "category": "torcedor",
+    "image": "/camisas/camisa-palmeiras-home-2026-torcedor-masculina.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Palmeiras",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-palmeiras-iii-26-27-s-n-torcedor-puma-feminina-azul",
+    "name": "Camisa Palmeiras III 26/27 s/n Torcedor Puma Feminina - Azul",
+    "category": "torcedor",
+    "image": "/camisas/camisa-palmeiras-iii-26-27-s-n-torcedor-puma-feminina-azul.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "team": "Palmeiras",
+    "gender": "feminina"
+  },
+  {
+    "slug": "camisa-polo-cr-flamengo-24",
+    "name": "Camisa Polo CR Flamengo 24",
+    "category": "torcedor",
+    "image": "/camisas/camisa-polo-cr-flamengo-24.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Flamengo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-pre-jogo-do-corinthians-26-masculina",
+    "name": "Camisa Pré-Jogo do Corinthians 26 Masculina",
+    "category": "conjuntos",
+    "image": "/camisas/camisa-pre-jogo-do-corinthians-26-masculina.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "XXL"
+    ],
+    "team": "Corinthians",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-psg-25-26-torcedor-azul",
+    "name": "Camisa PSG 25/26 Torcedor - Azul",
+    "category": "torcedor",
+    "image": "/camisas/camisa-psg-25-26-torcedor-azul.jpg",
+    "sizes": [
+      "GG",
+      "XXL"
+    ],
+    "team": "PSG",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-psg-fourth-20-21-torcedor-rosa-e-roxo",
+    "name": "Camisa PSG Fourth 20/21 Torcedor - Rosa e Roxo",
+    "category": "torcedor",
+    "image": "/camisas/camisa-psg-fourth-20-21-torcedor-rosa-e-roxo.jpg",
+    "sizes": [
+      "M",
+      "G",
+      "GG"
+    ],
+    "team": "PSG",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-psg-i-26-27-torcedor-nike-masculina-azul",
+    "name": "Camisa PSG I 26/27 Torcedor Nike Masculina - Azul",
+    "category": "torcedor",
+    "image": "/camisas/camisa-psg-i-26-27-torcedor-nike-masculina-azul.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "2XL",
+      "XL"
+    ],
+    "team": "PSG",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-psg-iii-25-26-torcedor-nike-masculina-vermelha",
+    "name": "Camisa PSG III 25/26 Torcedor Nike Masculina - Vermelha",
+    "category": "torcedor",
+    "image": "/camisas/camisa-psg-iii-25-26-torcedor-nike-masculina-vermelha.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "2XL",
+      "XL"
+    ],
+    "team": "PSG",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-puma-fluminense-i-2026-torcedor",
+    "name": "Camisa Puma Fluminense I 2026- torcedor",
+    "category": "torcedor",
+    "image": "/camisas/camisa-puma-fluminense-i-2026-torcedor.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "G1"
+    ],
+    "team": "Fluminense",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-puma-palmeiras-goleiro-edicao-especial-2026",
+    "name": "Camisa Puma Palmeiras Goleiro Edição Especial 2026",
+    "category": "torcedor",
+    "image": "/camisas/camisa-puma-palmeiras-goleiro-edicao-especial-2026.jpg",
+    "sizes": [
+      "P",
+      "G"
+    ],
+    "team": "Palmeiras",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-real-madrid-125-anos-branca-adidas",
+    "name": "Camisa Real Madrid 125 Anos Branca Adidas",
+    "category": "torcedor",
+    "image": "/camisas/camisa-real-madrid-125-anos-branca-adidas.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "G1"
+    ],
+    "team": "Real Madrid",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-red-bull-bragantino-ii-26-27-s-no-torcedor-puma-preto",
+    "name": "Camisa Red Bull Bragantino II 26/27 s/nº Torcedor Puma - Preto",
+    "category": "torcedor",
+    "image": "/camisas/camisa-red-bull-bragantino-ii-26-27-s-no-torcedor-puma-preto.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "team": "Red Bull Bragantino",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-red-bull-leipzig-2026-branco",
+    "name": "Camisa Red Bull Leipzig 2026 - Branco",
+    "category": "torcedor",
+    "image": "/camisas/camisa-red-bull-leipzig-2026-branco.jpg",
+    "sizes": [
+      "P",
+      "GG",
+      "3XL",
+      "XXL"
+    ],
+    "team": "Red",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-roma-25-26-torcedor-vermelha",
+    "name": "Camisa Roma 25/26 Torcedor - Vermelha",
+    "category": "torcedor",
+    "image": "/camisas/camisa-roma-25-26-torcedor-vermelha.jpg",
+    "sizes": [
+      "XXL"
+    ],
+    "team": "Roma",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-santos-charlie-brown-oficial-torcedor-masculina",
+    "name": "Camisa Santos Charlie Brown Oficial - Torcedor Masculina",
+    "category": "torcedor",
+    "image": "/camisas/camisa-santos-charlie-brown-oficial-torcedor-masculina.jpg",
+    "sizes": [
+      "M"
+    ],
+    "team": "Santos",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-santos-home-i-2025-26-umbro-torcedor-masculina-branca",
+    "name": "Camisa Santos Home I 2025/26 Umbro Torcedor Masculina - BRANCA",
+    "category": "torcedor",
+    "image": "/camisas/camisa-santos-home-i-2025-26-umbro-torcedor-masculina-branca.jpg",
+    "sizes": [
+      "XXL"
+    ],
+    "team": "Santos",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-santos-neymar-listrada-2012",
+    "name": "Camisa Santos Neymar listrada 2012",
+    "category": "torcedor",
+    "image": "/camisas/camisa-santos-neymar-listrada-2012.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "G1"
+    ],
+    "team": "Santos",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-sao-paulo-24-25-iii-torcedor-comemorativa-new-balance-masculina-preto-vermelho",
+    "name": "Camisa São Paulo 24/25 III Torcedor Comemorativa New Balance Masculina - Preto+Vermelho",
+    "category": "torcedor",
+    "image": "/camisas/camisa-sao-paulo-24-25-iii-torcedor-comemorativa-new-balance-masculina-preto-vermelho.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "São Paulo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-sao-paulo-i-26-27-torcedor-branco-e-vermelho",
+    "name": "Camisa São Paulo I 26/27 Torcedor - Branco e Vermelho",
+    "category": "torcedor",
+    "image": "/camisas/camisa-sao-paulo-i-26-27-torcedor-branco-e-vermelho.jpg",
+    "sizes": [
+      "M",
+      "G",
+      "GG"
+    ],
+    "team": "São Paulo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-sao-paulo-ii-26-27-torcedor-vermelho-branco",
+    "name": "Camisa São Paulo II 26/27 Torcedor - Vermelho+Branco",
+    "category": "torcedor",
+    "image": "/camisas/camisa-sao-paulo-ii-26-27-torcedor-vermelho-branco.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "XXL"
+    ],
+    "team": "São Paulo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-selecao-belgica-i-2026-torcedor-vermelha",
+    "name": "Camisa Seleção Bélgica I 2026 Torcedor - Vermelha",
+    "category": "selecoes",
+    "image": "/camisas/camisa-selecao-belgica-i-2026-torcedor-vermelha.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Seleção",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-selecao-camaroes-2025",
+    "name": "Camisa Seleção Camarões - 2025",
+    "category": "selecoes",
+    "image": "/camisas/camisa-selecao-camaroes-2025.jpg",
+    "sizes": [
+      "P",
+      "G"
+    ],
+    "team": "Seleção",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-selecao-chile-home-torcedor-2026-s-n-adidas-masculina-vermelho",
+    "name": "Camisa Seleção Chile Home Torcedor 2026 s/n Adidas Masculina - Vermelho",
+    "category": "selecoes",
+    "image": "/camisas/camisa-selecao-chile-home-torcedor-2026-s-n-adidas-masculina-vermelho.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "team": "Seleção",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-selecao-croacia-torcedor-25-26-home-branca-e-vermelha-masculina",
+    "name": "Camisa Seleção Croacia Torcedor 25/26 Home Branca e Vermelha Masculina",
+    "category": "selecoes",
+    "image": "/camisas/camisa-selecao-croacia-torcedor-25-26-home-branca-e-vermelha-masculina.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "XXL"
+    ],
+    "team": "Seleção",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-selecao-da-espanha-i-26-27-torcedor-adidas-masculina",
+    "name": "Camisa Seleção da Espanha I 26/27 Torcedor adidas Masculina",
+    "category": "selecoes",
+    "image": "/camisas/camisa-selecao-da-espanha-i-26-27-torcedor-adidas-masculina.jpg",
+    "sizes": [
+      "GG",
+      "2XL"
+    ],
+    "team": "Espanha",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-selecao-de-portugal-i-2026-feminina",
+    "name": "Camisa Seleção de Portugal I 2026 - Feminina",
+    "category": "selecoes",
+    "image": "/camisas/camisa-selecao-de-portugal-i-2026-feminina.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Portugal",
+    "gender": "feminina"
+  },
+  {
+    "slug": "camisa-selecao-italia-home-torcedor-2026-feminina",
+    "name": "Camisa Seleção Itália Home Torcedor 2026 - Feminina",
+    "category": "selecoes",
+    "image": "/camisas/camisa-selecao-italia-home-torcedor-2026-feminina.jpg",
+    "sizes": [
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Itália",
+    "gender": "feminina"
+  },
+  {
+    "slug": "camisa-selecao-jamaica-26-27-torcedor-bob-marley-amarela",
+    "name": "Camisa Seleção Jamaica 26/27- Torcedor -Bob Marley Amarela",
+    "category": "selecoes",
+    "image": "/camisas/camisa-selecao-jamaica-26-27-torcedor-bob-marley-amarela.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Seleção",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-sport-recife-visitante-2026-2027-dourada",
+    "name": "Camisa sport recife (Visitante) 2026/2027 dourada",
+    "category": "torcedor",
+    "image": "/camisas/camisa-sport-recife-visitante-2026-2027-dourada.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "G1"
+    ],
+    "team": "sport",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-sport-recife-i-26-27-s-n-torcedor-kappa-masculina",
+    "name": "Camisa Sport Recife I 26/27 S/N Torcedor Kappa Masculina",
+    "category": "torcedor",
+    "image": "/camisas/camisa-sport-recife-i-26-27-s-n-torcedor-kappa-masculina.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "G1"
+    ],
+    "team": "Sport",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-sport-recife-i-26-27-torcedor-botao-preto-e-patrocinador-bordado-masculina",
+    "name": "Camisa Sport Recife I 26/27 Torcedor - BOTÃO PRETO E PATROCINADOR BORDADO - Masculina",
+    "category": "torcedor",
+    "image": "/camisas/camisa-sport-recife-i-26-27-torcedor-botao-preto-e-patrocinador-bordado-masculina.jpg",
+    "sizes": [
+      "P",
+      "M"
+    ],
+    "team": "Sport",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-sporting-portugal-25-26-torcedor-verde-e-branca",
+    "name": "Camisa Sporting Portugal 25/26 Torcedor - Verde e Branca",
+    "category": "torcedor",
+    "image": "/camisas/camisa-sporting-portugal-25-26-torcedor-verde-e-branca.jpg",
+    "sizes": [
+      "GG",
+      "2XL"
+    ],
+    "team": "Portugal",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-tigres-uanl-25-26-torcedor-roxa",
+    "name": "Camisa Tigres UANL 25/26 Torcedor - Roxa",
+    "category": "torcedor",
+    "image": "/camisas/camisa-tigres-uanl-25-26-torcedor-roxa.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "team": "Tigres",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-tottenham-25-26-torcedor-amarela",
+    "name": "Camisa Tottenham 25/26 Torcedor - Amarela",
+    "category": "torcedor",
+    "image": "/camisas/camisa-tottenham-25-26-torcedor-amarela.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Tottenham",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-tottenham-hotspurs-2025-26-aia-torcedor-branca",
+    "name": "Camisa Tottenham Hotspurs 2025/26 AIA - Torcedor - Branca",
+    "category": "torcedor",
+    "image": "/camisas/camisa-tottenham-hotspurs-2025-26-aia-torcedor-branca.jpg",
+    "sizes": [
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Tottenham",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-vasco-da-gama-third-3o-uniforme-kappa-marrom-olist-especial",
+    "name": "Camisa Vasco da Gama Third (3º Uniforme) Kappa - Marrom / Olist/Especial",
+    "category": "torcedor",
+    "image": "/camisas/camisa-vasco-da-gama-third-3o-uniforme-kappa-marrom-olist-especial.jpg",
+    "sizes": [
+      "M",
+      "G",
+      "GG"
+    ],
+    "team": "Vasco",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-vasco-da-gama-away-kappa-branca-com-faixa-diagonal-preta",
+    "name": "Camisa Vasco da Gama Away Kappa - Branca com Faixa Diagonal Preta",
+    "category": "torcedor",
+    "image": "/camisas/camisa-vasco-da-gama-away-kappa-branca-com-faixa-diagonal-preta.jpg",
+    "sizes": [
+      "P",
+      "M"
+    ],
+    "team": "Vasco",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-vasco-masculina-branco-torcedor",
+    "name": "Camisa Vasco Masculina - Branco torcedor",
+    "category": "torcedor",
+    "image": "/camisas/camisa-vasco-masculina-branco-torcedor.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "XXL"
+    ],
+    "team": "Vasco",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-vasco-negritude-25-26-torcedor-kappa-masculina-preta",
+    "name": "Camisa Vasco Negritude 25/26 Torcedor Kappa Masculina - Preta",
+    "category": "torcedor",
+    "image": "/camisas/camisa-vasco-negritude-25-26-torcedor-kappa-masculina-preta.jpg",
+    "sizes": [
+      "P"
+    ],
+    "team": "Vasco",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-vasco-uniforme-3-100-anos-centenario-24-25",
+    "name": "Camisa Vasco Uniforme 3 100 Anos Centenário 24/25",
+    "category": "torcedor",
+    "image": "/camisas/camisa-vasco-uniforme-3-100-anos-centenario-24-25.jpg",
+    "sizes": [
+      "M",
+      "G"
+    ],
+    "team": "Vasco",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camisa-west-ham-third-25-26-torcedor-preta",
+    "name": "Camisa West Ham Third 25/26 Torcedor - Preta",
+    "category": "torcedor",
+    "image": "/camisas/camisa-west-ham-third-25-26-torcedor-preta.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "GG",
+      "2XL"
+    ],
+    "team": "West",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camiseta-corinthians-116-anos-esportiva-torcedor",
+    "name": "Camiseta Corinthians 116 Anos Esportiva Torcedor",
+    "category": "torcedor",
+    "image": "/camisas/camiseta-corinthians-116-anos-esportiva-torcedor.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "team": "Corinthians",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camiseta-masculina-real-madrid-third-25-26-torcedor-azul-branca",
+    "name": "Camiseta masculina Real Madrid Third 25/26 Torcedor (azul/branca)",
+    "category": "torcedor",
+    "image": "/camisas/camiseta-masculina-real-madrid-third-25-26-torcedor-azul-branca.jpg",
+    "sizes": [
+      "M",
+      "G",
+      "GG",
+      "G1"
+    ],
+    "team": "Real Madrid",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camiseta-paris-saint-germain-ii-2026-27-pre-jogo-torcedor-azul-roxo-psg",
+    "name": "Camiseta Paris Saint Germain II 2026/27 Pré Jogo torcedor - Azul+Roxo (PSG)",
+    "category": "torcedor",
+    "image": "/camisas/camiseta-paris-saint-germain-ii-2026-27-pre-jogo-torcedor-azul-roxo-psg.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "PSG",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camiseta-paris-saint-germain-torcedor-preta-psg",
+    "name": "Camiseta Paris Saint-Germain Torcedor - preta (PSG)",
+    "category": "torcedor",
+    "image": "/camisas/camiseta-paris-saint-germain-torcedor-preta-psg.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G"
+    ],
+    "team": "Paris Saint-Germain",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camiseta-puma-ac-milan-i-2027-masculina-torcedor",
+    "name": "Camiseta Puma AC Milan I 2027 Masculina Torcedor",
+    "category": "torcedor",
+    "image": "/camisas/camiseta-puma-ac-milan-i-2027-masculina-torcedor.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "GG"
+    ],
+    "team": "AC Milan",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camiseta-real-madrid-l-2026-27-branca-torcedor",
+    "name": "Camiseta Real Madrid l 2026/27 branca (torcedor)",
+    "category": "torcedor",
+    "image": "/camisas/camiseta-real-madrid-l-2026-27-branca-torcedor.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "G1"
+    ],
+    "team": "Real Madrid",
+    "gender": "masculino"
+  },
+  {
+    "slug": "camiseta-regata-do-flamengo-treino-26-27-adidas-masculina",
+    "name": "Camiseta Regata do Flamengo Treino 26/27 adidas Masculina",
+    "category": "conjuntos",
+    "image": "/camisas/camiseta-regata-do-flamengo-treino-26-27-adidas-masculina.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "G1"
+    ],
+    "team": "Flamengo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "paris-saint-germain-torcedor-psg",
+    "name": "Paris Saint-Germain Torcedor (PSG)",
+    "category": "torcedor",
+    "image": "/camisas/paris-saint-germain-torcedor-psg.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "G1"
+    ],
+    "team": "Paris Saint-Germain",
+    "gender": "masculino"
+  },
+  {
+    "slug": "regata-cruzeiro-26-27-treino-adidas-masculina-azul",
+    "name": "Regata Cruzeiro 26/27 Treino Adidas Masculina - Azul",
+    "category": "conjuntos",
+    "image": "/camisas/regata-cruzeiro-26-27-treino-adidas-masculina-azul.jpg",
+    "sizes": [
+      "P",
+      "G",
+      "GG",
+      "G1"
+    ],
+    "team": "Cruzeiro",
+    "gender": "masculino"
+  },
+  {
+    "slug": "regata-cruzeiro-26-27-treino-adidas-masculina-azul-escuro",
+    "name": "Regata Cruzeiro 26/27 Treino Adidas Masculina - Azul Escuro",
+    "category": "conjuntos",
+    "image": "/camisas/regata-cruzeiro-26-27-treino-adidas-masculina-azul-escuro.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "team": "Cruzeiro",
+    "gender": "masculino"
+  },
+  {
+    "slug": "regata-flamengo-2025-torcedor-azul",
+    "name": "Regata Flamengo 2025 Torcedor - Azul",
+    "category": "torcedor",
+    "image": "/camisas/regata-flamengo-2025-torcedor-azul.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "2XL"
+    ],
+    "team": "Flamengo",
+    "gender": "masculino"
+  },
+  {
+    "slug": "regata-flamengo-26-27-treino-adidas-masculino-marrom",
+    "name": "Regata Flamengo 26/27 Treino Adidas Masculino - Marrom",
+    "category": "conjuntos",
+    "image": "/camisas/regata-flamengo-26-27-treino-adidas-masculino-marrom.jpg",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "G1"
     ],
     "team": "Flamengo",
     "gender": "masculino"
