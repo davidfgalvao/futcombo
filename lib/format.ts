@@ -4,8 +4,12 @@ export const STORE_CITY = "Planaltina, GO";
 export const STORE_CITY_FULL = "Planaltina, Goiás";
 export const FREE_SHIPPING_FROM = 300;
 export const WHOLESALE_MIN = 6;
+export const SUPPLIER_COST = 50;
+export const RETAIL_PRICE = 99.9;
 export const PIX_DISCOUNT = 0.05;
 export const INSTALLMENTS = 10;
+export const CARD_INSTALLMENTS = 3;
+export const WHOLESALE_PRICE_RETRO = 100;
 
 export function formatBRL(value: number) {
   return value.toLocaleString("pt-BR", {

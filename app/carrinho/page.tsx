@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { JerseyMockup } from "@/components/JerseyMockup";
+import { ProductImage } from "@/components/ProductImage";
 import { useCart } from "@/lib/cart";
 import { products } from "@/lib/products";
 import { formatBRL, FREE_SHIPPING_FROM, pixPrice } from "@/lib/format";
@@ -31,7 +31,7 @@ export default function CartPage() {
               return (
                 <li key={`${item.productId}-${item.size}`} className="flex gap-4 rounded-2xl border border-border bg-surface p-4">
                   <div className="h-24 w-20 rounded-lg bg-bg">
-                    <JerseyMockup product={product} className="h-full w-full" />
+                    <ProductImage product={product} className="h-full w-full" />
                   </div>
                   <div className="min-w-0 flex-1">
                     <p className="font-semibold">{product.name}</p>

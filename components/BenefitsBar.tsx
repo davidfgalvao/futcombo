@@ -1,4 +1,4 @@
-import { Clock, CreditCard, Store, Warehouse } from "lucide-react";
+import { Clock, CreditCard, Package, Truck } from "lucide-react";
 
 const benefits = [
   {
@@ -9,17 +9,17 @@ const benefits = [
   {
     icon: Clock,
     title: "Prazo de envio",
-    text: "Até 3 dias úteis",
+    text: "Após confirmação do pedido",
   },
   {
-    icon: Store,
-    title: "Retirada em Planaltina, GO",
-    text: "Retire na loja ou peça o envio",
+    icon: Truck,
+    title: "Envio direto",
+    text: "Para o endereço do cliente",
   },
   {
-    icon: Warehouse,
-    title: "Atacado",
-    text: "A partir de 6 peças",
+    icon: Package,
+    title: "Sem estoque",
+    text: "Fornecedor despacha a peça",
   },
 ];
 

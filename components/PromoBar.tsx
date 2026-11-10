@@ -1,10 +1,10 @@
 import { CreditCard, MapPin, Package, Truck } from "lucide-react";
 
 const items = [
-  { icon: Truck, label: "Frete para todo o Brasil" },
-  { icon: Package, label: "A partir de 6 peças elegíveis" },
+  { icon: Truck, label: "Envio direto ao cliente" },
+  { icon: Package, label: "Sem estoque local" },
   { icon: CreditCard, label: "PIX à vista" },
-  { icon: MapPin, label: "Retire em Planaltina, GO" },
+  { icon: MapPin, label: "A partir de R$ 99,90" },
 ];
 
 export function PromoBar() {

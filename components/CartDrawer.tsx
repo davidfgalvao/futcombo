@@ -5,7 +5,7 @@ import { X } from "lucide-react";
 import { useCart } from "@/lib/cart";
 import { products } from "@/lib/products";
 import { formatBRL, FREE_SHIPPING_FROM, pixPrice } from "@/lib/format";
-import { JerseyMockup } from "./JerseyMockup";
+import { ProductImage } from "./ProductImage";
 
 export function CartDrawer() {
   const { items, open, setOpen, removeItem, updateQuantity, subtotal, count } = useCart();
@@ -52,7 +52,7 @@ export function CartDrawer() {
                 return (
                   <li key={`${item.productId}-${item.size}`} className="flex gap-3 border-b border-border pb-4">
                     <div className="h-20 w-16 shrink-0 rounded-lg bg-surface">
-                      <JerseyMockup product={product} className="h-full w-full" />
+                      <ProductImage product={product} className="h-full w-full" />
                     </div>
                     <div className="min-w-0 flex-1">
                       <p className="truncate font-semibold">{product.name}</p>

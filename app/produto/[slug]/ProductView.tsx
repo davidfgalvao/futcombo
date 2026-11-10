@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { JerseyMockup } from "@/components/JerseyMockup";
+import { ProductImage } from "@/components/ProductImage";
 import { ProductGrid } from "@/components/ProductGrid";
 import { SectionHeader } from "@/components/SectionHeader";
 import { useCart } from "@/lib/cart";
@@ -9,7 +9,6 @@ import { useFavorites } from "@/lib/favorites";
 import {
   discountPercent,
   formatBRL,
-  FREE_SHIPPING_FROM,
   installmentValue,
   pixPrice,
 } from "@/lib/format";
@@ -38,7 +37,7 @@ export function ProductView({ product }: { product: Product }) {
               -{off}%
             </span>
           )}
-          <JerseyMockup product={product} className="mx-auto w-full max-w-md" />
+          <ProductImage product={product} className="mx-auto w-full max-w-md" />
         </div>
 
         <div>
@@ -58,8 +57,8 @@ export function ProductView({ product }: { product: Product }) {
             <p className="text-muted">
               Pix: {formatBRL(pixPrice(total))} · ou 10x de {formatBRL(installmentValue(total))}
             </p>
-            <p className="mt-2 text-sm text-gold">
-              Frete grátis a partir de {formatBRL(FREE_SHIPPING_FROM)}
+            <p className="mt-2 text-sm font-semibold text-gold">
+              Envio direto ao endereço cadastrado no checkout
             </p>
           </div>
 

@@ -10,6 +10,8 @@ export default function HomePage() {
   const featured = getFeaturedProducts();
   const selecoes = getProductsByCategory("selecoes").slice(0, 4);
   const retro = getProductsByCategory("retro").slice(0, 4);
+  const jogador = getProductsByCategory("jogador").slice(0, 4);
+  const torcedor = getProductsByCategory("torcedor").slice(0, 4);
 
   return (
     <>
@@ -42,9 +44,19 @@ export default function HomePage() {
         <ProductGrid products={selecoes} />
       </section>
 
-      <section className="mx-auto max-w-7xl px-4 pb-8">
+      <section className="mx-auto max-w-7xl px-4 py-14">
         <SectionHeader title="Retrô" href="/categoria/retro" />
         <ProductGrid products={retro} />
+      </section>
+
+      <section className="mx-auto max-w-7xl px-4 py-14">
+        <SectionHeader title="Jogador" href="/categoria/jogador" />
+        <ProductGrid products={jogador} />
+      </section>
+
+      <section className="mx-auto max-w-7xl px-4 pb-8">
+        <SectionHeader title="Torcedor" href="/categoria/torcedor" />
+        <ProductGrid products={torcedor} />
       </section>
     </>
   );

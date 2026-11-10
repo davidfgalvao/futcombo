@@ -4,10 +4,10 @@ import { BrandMark } from "./Logo";
 import { whatsappLink } from "@/lib/format";
 
 const highlights = [
-  "Qualidade premium",
+  "Sem estoque local",
   "PIX à vista",
-  "Envio nacional",
-  "Retire em Planaltina, GO",
+  "Envio direto ao cliente",
+  "Camisas a partir de R$ 99,90",
 ];
 
 export function Hero() {
@@ -23,14 +23,14 @@ export function Hero() {
       <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-4 py-14 lg:grid-cols-[1.1fr_0.9fr] lg:py-20">
         <div>
           <p className="mb-4 inline-flex rounded-full border border-gold/50 px-3 py-1 text-xs font-bold uppercase tracking-[0.18em] text-gold">
-            Pronta-entrega · Qualidade premium
+            Dropshipping · Envio direto
           </p>
           <h1 className="font-display text-4xl font-extrabold leading-[1.05] text-white sm:text-5xl lg:text-6xl">
             A camisa do seu time, com qualidade premium.
           </h1>
           <p className="mt-5 max-w-xl text-lg leading-relaxed text-muted">
-            Clubes, seleções, retrô e NBA — varejo e atacado, de Planaltina,
-            Goiás para todo o Brasil.
+            Você vende no site. O pedido vai para o fornecedor e a camisa
+            chega no endereço que o cliente cadastrou.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link

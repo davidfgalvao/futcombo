@@ -26,6 +26,7 @@ export type Product = {
   version: "torcedor" | "jogador" | "retro" | "conjunto" | "nba" | "grade";
   price: number;
   originalPrice: number;
+  wholesalePrice: number;
   colors: {
     primary: string;
     secondary: string;
@@ -36,6 +37,7 @@ export type Product = {
   wholesaleEligible?: boolean;
   sizes: string[];
   description: string;
+  image?: string;
 };
 
 export type CartItem = {
@@ -45,4 +47,50 @@ export type CartItem = {
   personalized?: boolean;
   customName?: string;
   customNumber?: string;
+};
+
+export type OrderStatus =
+  | "pago"
+  | "enviar_fornecedor"
+  | "em_transito"
+  | "entregue"
+  | "cancelado";
+
+export type ShippingAddress = {
+  cep: string;
+  street: string;
+  number: string;
+  complement: string;
+  neighborhood: string;
+  city: string;
+  state: string;
+};
+
+export type OrderItem = {
+  productId: string;
+  name: string;
+  team: string;
+  size: string;
+  quantity: number;
+  salePrice: number;
+  supplierCost: number;
+};
+
+export type StoreOrder = {
+  id: string;
+  createdAt: string;
+  status: OrderStatus;
+  customer: {
+    name: string;
+    email: string;
+    phone: string;
+  };
+  shipping: ShippingAddress;
+  payment: "pix" | "cartao";
+  items: OrderItem[];
+  totals: {
+    sale: number;
+    cost: number;
+    margin: number;
+  };
 };

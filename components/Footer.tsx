@@ -10,8 +10,8 @@ export function Footer() {
         <div>
           <Logo compact />
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted">
-            Camisas de time com qualidade premium. Varejo e atacado, pronta-entrega,
-            envio para todo o Brasil e retirada em {STORE_CITY_FULL}.
+            Camisas de time com envio direto ao cliente. Sem estoque local:
+            o pedido sai do fornecedor para o endereço cadastrado.
           </p>
         </div>
         <div>
@@ -35,8 +35,8 @@ export function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/atacado" className="hover:text-gold">
-                Compre no atacado
+              <Link href="/operacao" className="hover:text-gold">
+                Central de pedidos
               </Link>
             </li>
             <li>
@@ -54,9 +54,9 @@ export function Footer() {
         <div>
           <p className="font-display text-lg font-bold text-white">Loja</p>
           <ul className="mt-4 space-y-2 text-sm text-muted">
-            <li>Retirada: {STORE_CITY_FULL}</li>
+            <li>Base: {STORE_CITY_FULL}</li>
             <li>WhatsApp: {PHONE_DISPLAY}</li>
-            <li>Envio em até 3 dias úteis</li>
+            <li>Envio direto do fornecedor</li>
             <li>PIX com 5% de desconto</li>
           </ul>
         </div>

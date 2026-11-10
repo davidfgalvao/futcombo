@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s | FutCombo",
   },
   description:
-    "Camisas de clubes, seleções, retrô e NBA. Varejo e atacado, pronta-entrega, PIX e envio para todo o Brasil.",
+    "Camisas de clubes, seleções, retrô e NBA. Dropshipping com envio direto ao endereço do cliente e pagamento via PIX.",
 };
 
 export default function RootLayout({

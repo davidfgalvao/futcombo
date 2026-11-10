@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { ProductGrid } from "@/components/ProductGrid";
+import { CategoryCatalog } from "@/components/CategoryCatalog";
 import { categories } from "@/lib/categories";
 import { getProductsByCategory } from "@/lib/products";
 import type { ProductCategory } from "@/lib/types";
@@ -22,14 +22,11 @@ export default async function CategoryPage({ params }: Props) {
   const category = categories.find((item) => item.slug === slug);
   if (!category) notFound();
 
-  const list = getProductsByCategory(slug as ProductCategory);
-
   return (
-    <div className="mx-auto max-w-7xl px-4 py-10">
-      <p className="text-sm text-gold">Categoria</p>
-      <h1 className="mt-1 font-display text-4xl font-extrabold">{category.label}</h1>
-      <p className="mt-2 mb-8 text-muted">{category.description}</p>
-      <ProductGrid products={list} />
-    </div>
+    <CategoryCatalog
+      title={category.label}
+      description={category.description}
+      products={getProductsByCategory(slug as ProductCategory)}
+    />
   );
 }
